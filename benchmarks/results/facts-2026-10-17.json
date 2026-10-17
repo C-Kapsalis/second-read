@@ -1,0 +1,383 @@
+{
+  "stats": {
+    "all|with": {
+      "runs": 117,
+      "rewrites": 99,
+      "clean": 94
+    },
+    "all|without": {
+      "runs": 117,
+      "rewrites": 79,
+      "clean": 49
+    },
+    "blog|with": {
+      "runs": 21,
+      "rewrites": 17,
+      "clean": 17
+    },
+    "blog|without": {
+      "runs": 21,
+      "rewrites": 13,
+      "clean": 8
+    },
+    "docs|with": {
+      "runs": 24,
+      "rewrites": 23,
+      "clean": 21
+    },
+    "docs|without": {
+      "runs": 24,
+      "rewrites": 17,
+      "clean": 10
+    },
+    "email|with": {
+      "runs": 30,
+      "rewrites": 23,
+      "clean": 20
+    },
+    "email|without": {
+      "runs": 30,
+      "rewrites": 22,
+      "clean": 13
+    },
+    "landing|with": {
+      "runs": 21,
+      "rewrites": 19,
+      "clean": 19
+    },
+    "landing|without": {
+      "runs": 21,
+      "rewrites": 8,
+      "clean": 4
+    },
+    "social|with": {
+      "runs": 21,
+      "rewrites": 17,
+      "clean": 17
+    },
+    "social|without": {
+      "runs": 21,
+      "rewrites": 19,
+      "clean": 14
+    }
+  },
+  "flagged": [
+    {
+      "case": "sr-blog-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-ZkAeBW",
+      "tokens": [
+        "50",
+        "50%"
+      ]
+    },
+    {
+      "case": "sr-blog-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-mSk3eb",
+      "tokens": [
+        "0.8",
+        "1.0",
+        "50",
+        "50%"
+      ]
+    },
+    {
+      "case": "sr-blog-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-TLMMrj",
+      "tokens": [
+        "50",
+        "50%",
+        "512"
+      ]
+    },
+    {
+      "case": "sr-blog-05",
+      "arm": "without",
+      "dir": "/private/tmp/e-zHTkKq",
+      "tokens": [
+        "10",
+        "10%"
+      ]
+    },
+    {
+      "case": "sr-blog-07",
+      "arm": "without",
+      "dir": "/private/tmp/e-ZYHMS8",
+      "tokens": [
+        "3.5"
+      ]
+    },
+    {
+      "case": "sr-docs-01",
+      "arm": "without",
+      "dir": "/private/tmp/e-KBtcKV",
+      "tokens": [
+        ".venv\\Scripts\\activate"
+      ]
+    },
+    {
+      "case": "sr-docs-03",
+      "arm": "with",
+      "dir": "/private/tmp/e-6OF8K6",
+      "tokens": [
+        "section and"
+      ]
+    },
+    {
+      "case": "sr-docs-05",
+      "arm": "without",
+      "dir": "/private/tmp/e-mrJ2tD",
+      "tokens": [
+        "https://img.shields.io/node/v/ferrule",
+        "https://img.shields.io/npm/v/ferrule"
+      ]
+    },
+    {
+      "case": "sr-docs-05",
+      "arm": "without",
+      "dir": "/private/tmp/e-9oVcmj",
+      "tokens": [
+        "https://img.shields.io/badge/node-%3E%3D20-green"
+      ]
+    },
+    {
+      "case": "sr-docs-05",
+      "arm": "without",
+      "dir": "/private/tmp/e-Ms9mU5",
+      "tokens": [
+        "https://img.shields.io/badge/node-%3E%3D20-green",
+        "https://img.shields.io/npm/v/ferrule"
+      ]
+    },
+    {
+      "case": "sr-docs-06",
+      "arm": "without",
+      "dir": "/private/tmp/e-CI5oeV",
+      "tokens": [
+        "401",
+        "429",
+        "https://api.orchard.example`"
+      ]
+    },
+    {
+      "case": "sr-docs-06",
+      "arm": "without",
+      "dir": "/private/tmp/e-fjR1Or",
+      "tokens": [
+        "GET /refunds/{id}",
+        "POST /refunds"
+      ]
+    },
+    {
+      "case": "sr-docs-06",
+      "arm": "with",
+      "dir": "/private/tmp/e-lYz7AC",
+      "tokens": [
+        "GET /refunds/{id}",
+        "POST /refunds"
+      ]
+    },
+    {
+      "case": "sr-docs-08",
+      "arm": "without",
+      "dir": "/private/tmp/e-vbOs0o",
+      "tokens": [
+        "YYYY-MM-DD"
+      ]
+    },
+    {
+      "case": "sr-email-01",
+      "arm": "without",
+      "dir": "/private/tmp/e-Rfu1Qu",
+      "tokens": [
+        "$23.60",
+        "$35.60",
+        "$51.60",
+        "23",
+        "23.60",
+        "35.60",
+        "51",
+        "51.60",
+        "60"
+      ]
+    },
+    {
+      "case": "sr-email-01",
+      "arm": "without",
+      "dir": "/private/tmp/e-Lm2v9e",
+      "tokens": [
+        "$23.60",
+        "$35.60",
+        "$51.60",
+        "23",
+        "23.60",
+        "35.60",
+        "51",
+        "51.60",
+        "60"
+      ]
+    },
+    {
+      "case": "sr-email-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-h5VPrW",
+      "tokens": [
+        "18"
+      ]
+    },
+    {
+      "case": "sr-email-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-ch9zLM",
+      "tokens": [
+        "18",
+        "hello@embergrind.com"
+      ]
+    },
+    {
+      "case": "sr-email-03",
+      "arm": "without",
+      "dir": "/private/tmp/e-gsjrQX",
+      "tokens": [
+        "18"
+      ]
+    },
+    {
+      "case": "sr-email-08",
+      "arm": "without",
+      "dir": "/private/tmp/e-Ma2tV9",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "without",
+      "dir": "/private/tmp/e-8KVnQs",
+      "tokens": [
+        "https://coinpath.app/refer/taylor",
+        "referrals@coinpath.app"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "without",
+      "dir": "/private/tmp/e-o03jFF",
+      "tokens": [
+        "https://coinpath.app/refer/taylor"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "without",
+      "dir": "/private/tmp/e-d5jO8x",
+      "tokens": [
+        "https://coinpath.app/refer/taylor"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "with",
+      "dir": "/private/tmp/e-Uoq9WO",
+      "tokens": [
+        "https://coinpath.app/refer/taylor"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "with",
+      "dir": "/private/tmp/e-ZeUTAR",
+      "tokens": [
+        "https://coinpath.app/refer/taylor"
+      ]
+    },
+    {
+      "case": "sr-email-09",
+      "arm": "with",
+      "dir": "/private/tmp/e-gHXqOP",
+      "tokens": [
+        "https://coinpath.app/refer/taylor"
+      ]
+    },
+    {
+      "case": "sr-landing-01",
+      "arm": "without",
+      "dir": "/private/tmp/e-An77nP",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "case": "sr-landing-01",
+      "arm": "without",
+      "dir": "/private/tmp/e-iSY30A",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "case": "sr-landing-04",
+      "arm": "without",
+      "dir": "/private/tmp/e-0Fxf9f",
+      "tokens": [
+        "09",
+        "11"
+      ]
+    },
+    {
+      "case": "sr-landing-05",
+      "arm": "without",
+      "dir": "/private/tmp/e-hBwQiF",
+      "tokens": [
+        "18"
+      ]
+    },
+    {
+      "case": "sr-social-02",
+      "arm": "without",
+      "dir": "/private/tmp/e-BkkN3w",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "case": "sr-social-02",
+      "arm": "without",
+      "dir": "/private/tmp/e-OzO1TI",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "case": "sr-social-04",
+      "arm": "without",
+      "dir": "/private/tmp/e-HFKXKE",
+      "tokens": [
+        "15",
+        "\u00a315"
+      ]
+    },
+    {
+      "case": "sr-social-04",
+      "arm": "without",
+      "dir": "/private/tmp/e-fV29YE",
+      "tokens": [
+        "15",
+        "\u00a315"
+      ]
+    },
+    {
+      "case": "sr-social-04",
+      "arm": "without",
+      "dir": "/private/tmp/e-oD36Sm",
+      "tokens": [
+        "15",
+        "180",
+        "\u00a315",
+        "\u00a3180"
+      ]
+    }
+  ]
+}

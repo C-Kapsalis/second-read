@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: sr-social-06
+runs: 3
+context:
+  scaffold_script: scaffold.sh

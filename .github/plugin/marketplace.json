@@ -1,0 +1,20 @@
+{
+  "name": "second-read",
+  "description": "Second Read: a second read for your copy and your docs before you hit send.",
+  "owner": {
+    "name": "Christoforos Kapsalis",
+    "url": "https://c-kapsalis.github.io/"
+  },
+  "plugins": [
+    {
+      "name": "second-read",
+      "description": "Reviews emails, social posts, landing pages, blog posts and technical docs. Proves every fix with a quote and a rule, leaves correct details alone, invents no facts.",
+      "source": "./",
+      "category": "productivity",
+      "tags": ["copywriting", "proofreading", "documentation", "technical-writing"],
+      "commands": "commands/",
+      "skills": "skills/",
+      "hooks": "hooks/copilot-hooks.json"
+    }
+  ]
+}
