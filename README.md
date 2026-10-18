@@ -6,20 +6,43 @@
   <img src="https://img.shields.io/badge/benchmarked%20on-Claude%20Haiku-111111?style=flat-square" alt="Benchmarked on Claude Haiku">
 </p>
 
-A lot of technical founders I know can build the product and then stall on
-the writing around it. That writing is most of what gets a product out. The
-copy brings people in: the launch post, the landing page, the email. The
-documentation shows them the value and helps them adopt it: how to install
-it, use it, fix it when it breaks, and adapt it to their own case. Both fail
-in small, checkable ways. A weekday that does not match its date. A "50%
-off" that is really a third. A tutorial step that uses a file no earlier
-step created. A #ad buried under eleven hashtags. A button that says
-"Submit".
+Technical founders build great products, yet adoption often stalls
+because of poor communication. Clear public writing (read by both
+humans and AI agents) remains one of the most effective ways to bring 
+technical work to a wider audience and communicate its value.
 
-Second Read is the colleague you send it to before you hit send. It reads
-the piece twice, quotes each problem, names the rule it breaks, leaves
-correct details alone, and hands it back with three to five fixes and a
-rewrite that adds nothing you did not say.
+This writing drives discovery and inbound interest through launch posts, 
+landing pages, emails, and other public-facing content.
+
+But technical communication goes well beyond marketing. **Documentation 
+is especially important because it makes a product's value tangible.** 
+It shows the problems a solution solves, the use cases it supports, 
+and how it fits into real-world workflows.
+
+And once someone decides to try the product, documentation becomes 
+essential to adoption. It guides users through integrating it into 
+their existing stack, using it in their workflows, troubleshooting 
+unexpected results, and adapting it to their specific needs.
+
+Both marketing content and technical documentation can fail in small, 
+verifiable ways, often with outsized consequences.
+
+A launch post announces that a feature is available to everyone, but 
+ends with a link to a waitlist. A pricing page promises a 40% discount, 
+while the numbers show only 20%. A five-minute quickstart references an 
+environment variable it never tells users to define. An API tutorial uses 
+a parameter name that contradicts its own schema. A troubleshooting guide 
+points to a configuration option that doesn't exist in the documented setup.
+
+None of these mistakes requires a complete rewrite. But each can cost you 
+a potential user, undermine trust, or leave a developer stuck halfway through
+an integration.
+
+**SecondRead is the colleague you send your writing to before you hit publish.** 
+It reads the piece twice, quotes each problem, identifies the rule it breaks, 
+and leaves correct details untouched. Then it hands back three to five actionable
+fixes and a clean rewrite that adds nothing you didn't say.
+
 
 <p align="center">
   <em>Read it twice. Send it once.</em>
@@ -33,47 +56,63 @@ rewrite that adds nothing you did not say.
 </p>
 
 <p align="center">
-  <strong>Planted problems found: <!--RECALL_WITH-->99%<!--/RECALL_WITH--> of runs with Second Read.</strong> Without: <!--RECALL_WITHOUT-->89%<!--/RECALL_WITHOUT-->.<br>
-  <strong>Rewrites with no invented fact: <!--NOFAB_WITH-->95%<!--/NOFAB_WITH-->.</strong> Without: <!--NOFAB_WITHOUT-->62%<!--/NOFAB_WITHOUT-->.<br>
-  <sub>Claude Haiku in Claude Code, the same agent with and without the plugin: <!--CASE_COUNT-->39<!--/CASE_COUNT--> pieces (emails, social posts, landing pages, blog posts, docs pages), <!--RUNS-->3<!--/RUNS--> runs per arm. Synthetic cases; <a href="#limits">limits below</a>.</sub>
+  <strong>Planted-flaw check passed: <!--RECALL_WITH-->99%<!--/RECALL_WITH--> with SecondRead; <!--RECALL_WITHOUT-->89%<!--/RECALL_WITHOUT--> without.</strong><br>
+  <strong>Rewrites with no invented facts: <!--NOFAB_WITH-->95%<!--/NOFAB_WITH--> with SecondRead; <!--NOFAB_WITHOUT-->62%<!--/NOFAB_WITHOUT--> without.</strong><br>
+  <sub>Same Claude Haiku agent in Claude Code, with and without the plugin. Controlled cases across emails, social posts, landing pages, blogs and technical docs, drawing on public-facing writing and problems I encountered in professional work. The published test pieces use fictional brands, planted flaws and clean controls. <a href="#the-benchmark">Method</a> and <a href="#interpreting-the-results">evaluation notes</a> below.</sub>
 </p>
 
-The clearest result: without Second Read, Haiku called 0 of 15 clean
-controls clean. With it, <!--CONTROL_WITH-->67%<!--/CONTROL_WITH--> of those runs were called clean.
+The clearest result is about restraint. Without SecondRead, Haiku did not recognize any of the clean controls as clean. With it, <!--CONTROL_WITH-->67%<!--/CONTROL_WITH--> were correctly called clean. It also left correct details alone more often: <!--DECOY_WITH-->85%<!--/DECOY_WITH--> versus <!--DECOY_WITHOUT-->52%<!--/DECOY_WITHOUT--> without the plugin.
+
+**Why Haiku?** Because reliable work should not always require a bigger
+model. SecondRead tests whether explicit rules and a structured review
+process can make a lightweight model more dependable for everyday
+professional writing. This first benchmark focuses on review quality;
+workflow capacity and cost are natural next measures.
 
 It is a prompt, packaged for Claude Code and other agents. Personal project.
 
 ---
 
-## Numbers
+## What we tested
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/benchmark-formats-dark.svg">
-    <img src="assets/benchmark-formats-light.svg" width="820" alt="Bar chart: mean grader score from 0 to 1 per format (email, social, landing page, blog, docs), with and without Second Read. The per-format numbers are in the results file linked below.">
-  </picture>
-</p>
+The benchmark covers five public-facing formats: **email, social posts,
+landing pages, blog posts and technical documentation**. The test pieces
+adapt real-world problems into controlled scenarios, using fictional
+brands so individual checks can be scored consistently.
+
+The scenarios probe the mistakes that affect whether a piece can be
+published or followed:
+
+- **Facts and promises:** dates and weekdays that disagree, arithmetic
+  that does not add up, conflicting prices or names, and claims the
+  piece itself does not support.
+- **Marketing execution:** calls to action, offer consistency,
+  disclosures, and format-specific constraints such as where a link or
+  important message appears.
+- **Documentation accuracy:** missing prerequisites, steps in the wrong
+  order, examples that disagree with their reference, and instructions
+  that leave the reader stuck.
+- **False positives:** deliberately correct details that might look
+  suspicious, to test whether the reviewer can leave them alone.
+- **Clean controls:** already-correct pieces, to test whether the
+  reviewer can say "ready to send" instead of inventing edits.
+
+Five outcomes are scored: whether the reviewer **finds planted flaws
+with evidence, ranks publish-blocking mistakes first, leaves decoys
+alone, rewrites without adding facts, and recognizes clean work**.
+These are the benchmarked behaviors. The more extensive rules SecondRead
+applies to each format are listed under [What it checks](#what-it-checks).
+
+## Numbers
 
 | Share of runs that pass | With Second Read | Without |
 |---|--:|--:|
 | Planted flaws found (80% or more of them, with evidence) | <!--RECALL_WITH-->99%<!--/RECALL_WITH--> | <!--RECALL_WITHOUT-->89%<!--/RECALL_WITHOUT--> |
 | Send- or publish-blocking flaws ranked first, with a "do not send" verdict | <!--GATE_WITH-->97%<!--/GATE_WITH--> | <!--GATE_WITHOUT-->85%<!--/GATE_WITHOUT--> |
 | Correct details (decoys) left alone | <!--DECOY_WITH-->85%<!--/DECOY_WITH--> | <!--DECOY_WITHOUT-->52%<!--/DECOY_WITHOUT--> |
-| Rewrites with no invented fact (share of rewrites, checked by script) | <!--NOFAB_WITH-->95%<!--/NOFAB_WITH--> | <!--NOFAB_WITHOUT-->62%<!--/NOFAB_WITHOUT--> |
+| Rewrites with no invented facts (share of rewrites, checked by script) | <!--NOFAB_WITH-->95%<!--/NOFAB_WITH--> | <!--NOFAB_WITHOUT-->62%<!--/NOFAB_WITHOUT--> |
 | Clean controls called clean | <!--CONTROL_WITH-->67%<!--/CONTROL_WITH--> | <!--CONTROL_WITHOUT-->0%<!--/CONTROL_WITHOUT--> |
 | Mean score (0 to 1) | <!--SCORE_WITH-->0.88<!--/SCORE_WITH--> | <!--SCORE_WITHOUT-->0.63<!--/SCORE_WITHOUT--> |
-
-<!--CASE_COUNT-->39<!--/CASE_COUNT--> cases, <!--RUNS-->3<!--/RUNS--> runs per case per arm, <!--RUN_TOTAL-->234<!--/RUN_TOTAL--> runs in
-all, measured on <!--RESULTS_DATE-->2026-10-17<!--/RESULTS_DATE-->. Each case is a realistic piece from a
-fictional brand or product with 3-6 planted flaws a reviewer can check
-objectively (a count, a calendar, a sum, two places that disagree), one to
-three decoys a careless reviewer flags, and a list of the original's facts.
-Every prompt asks for the fix as one fenced code block, in both arms, and
-[benchmarks/check_facts.py](benchmarks/check_facts.py) counts any number,
-price, date, link or code span in it that the original does not have. One
-clean control per format checks that good work is left alone. Per-format tables, run counts and per-case
-scores are in [benchmarks/results/](benchmarks/results/); the method is in
-[benchmarks/METHOD.md](benchmarks/METHOD.md).
 
 ## Before / after
 
@@ -225,6 +264,19 @@ release zips are built by `sh scripts/package.sh`.
 
 ## The benchmark
 
+The benchmark tests editorial decisions drawn from public-facing communications and issues I encountered in professional work. The published cases adapt those patterns into fictional brands and products, with checkable flaws, harmless decoys or clean controls. Each case also records the original facts, so the reviews and rewrites can be evaluated consistently.
+
+The evaluation covers <!--CASE_COUNT-->39<!--/CASE_COUNT--> cases, repeated <!--RUNS-->3<!--/RUNS--> times with and without SecondRead (<!--RUN_TOTAL-->234<!--/RUN_TOTAL--> reviews in total). Results were collected on <!--RESULTS_DATE-->2026-10-17<!--/RESULTS_DATE-->.
+
+The same agent receives the same review request with and without the
+plugin. Each condition asks for a fix in one fenced code block. The
+[check_facts.py](benchmarks/check_facts.py) script flags any number,
+price, date, link or code span introduced in a rewrite that was not in
+the original. Clean controls check that already-correct writing is left
+alone. Per-format tables, counts and per-case scores are in
+[benchmarks/results/](benchmarks/results/); the method is documented in
+[benchmarks/METHOD.md](benchmarks/METHOD.md).
+
 The cases live in [benchmarks/cases/](benchmarks/cases/) in the format
 `claude plugin eval` reads. They are generated from three answer sheets in
 [benchmarks/builder/](benchmarks/builder/), and
@@ -242,55 +294,20 @@ the third writes the results page, redraws the charts and fills the numbers
 in this README. What each grader checks, and why Haiku:
 [benchmarks/METHOD.md](benchmarks/METHOD.md).
 
-## Limits
+## Interpreting the results
 
-- **Synthetic cases.** Every piece was written for the benchmark with flaws
-  planted on purpose. Real drafts are messier, and much of what makes copy
-  good (is the offer worth it?) cannot be checked this way.
-- **Small n.** <!--RUNS-->3<!--/RUNS--> runs per case per arm. One run moves a case's pass
-  rate by a third. Read differences of a few points as noise.
-- **A small judge.** Claude Haiku grades flaws, ranking, decoys and
-  controls, three votes per grader, majority wins. Split votes show up in
-  the log. I have not yet measured agreement with a human grader. Invented
-  facts are counted by a script, which sees numbers, links and code but not
-  a new claim in words.
-- **Where it did worse.** On blog posts it found 94% of planted flaws
-  against 100% without: one missed flaw. Docs is the weakest format (mean
-  score 0.72), and only 1 of 3 docs control runs was called clean.
-- **One model, one host.** The numbers are for Haiku in Claude Code. The
-  other adapters load the same prompt but are not benchmarked.
-- **It checks the page, not the product.** For docs, it can tell you two
-  steps disagree; it cannot run your commands. For copy, it can tell you a
-  price is inconsistent; it cannot tell you the right one.
-- **Same author.** I wrote the cases and the prompt. Cases from other people
-  would make the numbers more trustworthy.
+The benchmark is designed around concrete editorial checks: whether an agent finds a discrepancy, prioritizes a blocker, preserves a correct detail, or avoids adding unsupported material. The fictionalized cases make those decisions reproducible. Live campaigns and documentation can involve additional context, so these scores describe performance on the published tests rather than downstream marketing outcomes.
 
-If you have a draft where Second Read got it wrong, a flaw it should have
-caught, or a decoy it should have left alone, please
-[open an issue](https://github.com/C-Kapsalis/second-read/issues). A
-counterexample is worth more to me than a star. See
-[CONTRIBUTING.md](CONTRIBUTING.md).
+The figures are specific to **Claude Haiku in Claude Code**. Haiku grades flaw detection, priority, decoys and clean controls using majority votes; a script checks rewrites for newly introduced numbers, prices, dates, links and code spans. Claims introduced only in prose require further review. The same review process can be tried in other agents, but those integrations are not included in these results.
 
-## Credits
+Performance varies by format. In the blog checks, SecondRead found 94% of the planted flaws versus 100% without it; technical documentation had a mean score of 0.72. These results help identify where the rules can be refined. The number of cases also means small percentage differences are best read cautiously.
 
-- The docs skill's four page types and mode-mixing checks follow
-  [Diátaxis](https://diataxis.fr) by Daniele Procida, licensed
-  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-  [`skills/docs/references/diataxis.md`](skills/docs/references/diataxis.md)
-  paraphrases it in my own words and adds review checks; read the original
-  for the full argument.
-- The docs style rules take Canonical's
-  [Ubuntu documentation style guide](https://documentation.ubuntu.com/style-guide/)
-  (CC BY-SA) as the house baseline, paraphrased in
-  [`skills/docs/references/style.md`](skills/docs/references/style.md),
-  alongside points from the Google developer documentation style guide and
-  the Microsoft Writing Style Guide.
-- The repository layout and the multi-agent adapters follow
-  [Ponytail](https://github.com/DietrichGebert/ponytail) by Dietrich Gebert.
+SecondRead checks the content supplied to it, not the live product behind it. It can identify contradictions in a price or sequence of setup steps, for example, and prompt you to confirm the correct version; it cannot verify a product's current pricing or execute a tutorial as part of this review.
+
+Have a draft that reveals a missed flaw or an unnecessary correction? [Open an issue](https://github.com/C-Kapsalis/second-read/issues) or see [CONTRIBUTING.md](CONTRIBUTING.md). Real-world counterexamples are particularly useful for improving the checks.
 
 Personal project. It is not affiliated with, or endorsed by, any employer.
 
 ## License
 
-[MIT](LICENSE). Diátaxis and the Ubuntu style guide keep their own licenses;
-this repository paraphrases them and copies no text from them.
+[MIT](LICENSE). The documentation guidance draws on [Diátaxis](https://diataxis.fr) (CC BY-SA 4.0) and the [Ubuntu documentation style guide](https://documentation.ubuntu.com/style-guide/) (CC BY-SA). Their guidance is paraphrased and their licenses remain separate.
