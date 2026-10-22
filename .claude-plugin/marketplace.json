@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "second-read",
-  "description": "Second Read: a second read for your copy and your docs before you hit send.",
+  "description": "Second Read: a second read for your writing before you publish it.",
   "owner": {
     "name": "Christoforos Kapsalis",
     "url": "https://c-kapsalis.github.io/"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "second-read",
-      "description": "Reviews emails, social posts, landing pages, blog posts and technical docs. Proves every fix with a quote and a rule, leaves correct details alone, invents no facts.",
+      "description": "Proposes source-anchored edits in reading order and exports the revision you approve. Invents no facts.",
       "source": "./",
       "category": "productivity"
     }

@@ -1,7 +1,7 @@
 {
   "name": "second-read",
-  "version": "0.1.0",
-  "description": "Second Read: the colleague you send it to before you hit send. Reviews marketing copy (emails, social posts, landing pages, blog posts) and technical docs (READMEs, tutorials, how-tos, reference, release notes), proves every fix with a quote and a named rule, leaves correct details alone, and rewrites without inventing facts. Read it twice. Send it once.",
+  "version": "0.2.0",
+  "description": "Contextual editing and proofreading for any draft: reads it in the reader's order, proposes source-anchored edits, asks where a first-time reader may diverge from your intent, and exports the revision you approve. Read it twice. Send it once.",
   "author": {
     "name": "Christoforos Kapsalis",
     "url": "https://c-kapsalis.github.io/"
@@ -9,6 +9,6 @@
   "homepage": "https://github.com/C-Kapsalis/second-read",
   "repository": "https://github.com/C-Kapsalis/second-read",
   "license": "MIT",
-  "keywords": ["copywriting", "copy-review", "proofreading", "email-marketing", "social-media", "landing-page", "blog", "documentation", "technical-writing", "diataxis", "readme", "release-notes"],
-  "hooks": "./hooks/claude-hooks.json"
+  "keywords": ["editing", "proofreading", "copywriting", "documentation", "technical-writing", "diataxis", "essays"],
+  "skills": ["./"]
 }
