@@ -12,9 +12,9 @@
       "source": "./",
       "category": "productivity",
       "tags": ["copywriting", "proofreading", "documentation", "technical-writing"],
-      "commands": "commands/",
-      "skills": "skills/",
-      "hooks": "hooks/copilot-hooks.json"
+      "commands": ["./commands/"],
+      "skills": "./skills/",
+      "hooks": "./hooks/copilot-hooks.json"
     }
   ]
 }

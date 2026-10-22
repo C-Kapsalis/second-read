@@ -10,7 +10,9 @@
   "repository": "https://github.com/C-Kapsalis/second-read",
   "license": "MIT",
   "keywords": ["copywriting", "copy-review", "proofreading", "email-marketing", "social-media", "landing-page", "blog", "documentation", "technical-writing", "diataxis", "readme", "release-notes"],
-  "commands": "commands/",
-  "skills": "skills/",
-  "hooks": "hooks/copilot-hooks.json"
+  "commands": [
+    "./commands/"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/copilot-hooks.json"
 }
