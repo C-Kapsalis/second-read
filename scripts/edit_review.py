@@ -167,7 +167,7 @@ def apply(review, accepted):
     unknown=set(accepted)-set(by_id)
     if unknown: fail(f'unknown edit IDs: {sorted(unknown)}')
     blocks=[dict(b) for b in review['source']['blocks']]
-    for suggestion in review['suggestions']:
+    for suggestion in review.get('suggestions', []):
         if suggestion['id'] not in accepted: continue
         for op in suggestion['operations']:
             kind=op['type']
