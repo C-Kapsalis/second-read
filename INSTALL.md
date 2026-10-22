@@ -3,7 +3,9 @@
 Pick your agent below. Not listed? Most agents read [`AGENTS.md`](AGENTS.md):
 copy it into your project, or ask your agent to install
 [`skills/second-read/SKILL.md`](skills/second-read/SKILL.md) and
-[`skills/docs/SKILL.md`](skills/docs/SKILL.md) as skills.
+[`skills/docs/SKILL.md`](skills/docs/SKILL.md) as skills, and
+[`skills/editor/SKILL.md`](skills/editor/SKILL.md) with its `scripts/` if you
+want the editor.
 
 Every adapter loads the same prompt. `AGENTS.md` is the source for the
 rules-file copies; `python3 scripts/sync-adapters.py` regenerates them.
@@ -48,8 +50,8 @@ As two separate prompts:
 
 The same two commands work in the Code tab of the Claude Desktop app, which
 behaves like Claude Code. A session hook loads Second Read's five core rules
-at the start of every session, and the two skills load when you share copy
-or docs.
+at the start of every session, and the skills load when you share copy or
+docs, or ask for edits.
 
 ## Claude (web and Desktop chat)
 
@@ -63,15 +65,16 @@ enter `C-Kapsalis/second-read`, then install `second-read`.
 [latest release](https://github.com/C-Kapsalis/second-read/releases) (or
 build it: `sh scripts/package.sh`) and upload it in Customize > Plugins.
 
-**c. Upload the two skills.** Download `second-read-skill.zip` and
-`second-read-docs-skill.zip` and upload each in Customize > Skills. Each zip
+**c. Upload the skills.** Download `second-read-skill.zip`,
+`second-read-docs-skill.zip` and, for the editor,
+`second-read-editor-skill.zip`, and upload each in Customize > Skills. Each zip
 holds one folder with its `SKILL.md` and `references/`.
 
 The session hook does not run in chat. The skill loads when your message
 matches its description, so name the job: "Give this email a second read",
 "Can you give this README a second read before I publish it?". Anthropic's
 help article on custom skills gives a 200-character limit for a skill
-description, while the Agent Skills format allows 1,024. The two skill zips
+description, while the Agent Skills format allows 1,024. The skill zips
 therefore carry a short description (under 200 characters) that keeps the
 trigger phrases; the plugin keeps the longer one. If an upload is still
 rejected, please open an issue.
@@ -89,7 +92,8 @@ tested any of them.
    latest release.
 2. To add Second Read as skills: in ChatGPT, open Plugins in the sidebar,
    then the Skills tab (earlier versions: Skills > Create), and upload
-   `second-read-skill.zip` and `second-read-docs-skill.zip`. ChatGPT scans an
+   `second-read-skill.zip`, `second-read-docs-skill.zip` and
+   `second-read-editor-skill.zip`. ChatGPT scans an
    uploaded skill first and may mark it "Needs Review". On Enterprise and
    Edu, an admin has to allow skill uploads.
 3. `second-read-chatgpt.zip` is the package for the ChatGPT Plugin Directory

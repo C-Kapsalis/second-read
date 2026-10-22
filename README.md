@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="140" alt="Second Read logo: a reader in glasses with an open book">
+</p>
+
 <h1 align="center">Second Read</h1>
 
 <p align="center">
@@ -224,8 +228,42 @@ READMEs, API pages and release notes get their own checklists on top.
    conflicting ones become `[confirm: X or Y]`, and every number, date and
    claim in the rewrite is listed against the ledger before you see it.
 
-The prompt is two skills, [`skills/second-read/SKILL.md`](skills/second-read/SKILL.md)
-(copy) and [`skills/docs/SKILL.md`](skills/docs/SKILL.md) (docs), each with
+## Editing, not just reviewing (new in 0.2.0)
+
+The review tells you what is wrong. The editor proposes the change. Give it
+a draft and your brief (who it is for, what it must do, what you can prove),
+and it:
+
+1. **Reads in the reader's order** and groups related passages into labeled
+   argument threads: claim, evidence, example, counterargument.
+2. **Proposes the smallest edit that fixes a real problem:** replace,
+   insert after, move after or delete, each anchored to a verbatim quote of
+   your draft and marked required (a checkable error) or optional (style or
+   flow).
+3. **Asks at most three questions to yourself,** placed right after the
+   passage where a first-time reader could read something other than what
+   you meant. No quiz at the end, no score for the writer.
+4. **Assembles the draft you approved** and proofreads the new order again:
+   referents, transitions, facts. It keeps your voice and invents nothing.
+
+It routes by what the draft does, not by its length: essays and
+explanations, policy arguments, fiction and narrative, copy and branding,
+docs after Diátaxis. A clean draft gets zero changes.
+
+Two optional scripts, Python standard library only:
+`skills/editor/scripts/edit_review.py` validates a `review.json`, renders a
+private offline editing page where you accept and reject each change, and
+applies the accepted set; `skills/editor/scripts/product_verify.py` checks
+product claims against a checkout and reports `corroborated`, `unknown` or
+`contradicted`, running commands or network checks only when you pass
+`--allow-exec` or `--allow-network`. The editor has not been benchmarked
+yet; the numbers above are for the review skills.
+
+## The skills
+
+The prompt is three skills, [`skills/second-read/SKILL.md`](skills/second-read/SKILL.md)
+(copy), [`skills/docs/SKILL.md`](skills/docs/SKILL.md) (docs) and
+[`skills/editor/SKILL.md`](skills/editor/SKILL.md) (editing), each with
 reference files. The compact version for agents that read a rules file is
 [`AGENTS.md`](AGENTS.md). [docs/COVERAGE.md](docs/COVERAGE.md) and
 [docs/COVERAGE-docs.md](docs/COVERAGE-docs.md) trace each check to its
@@ -247,12 +285,12 @@ it?" The Code tab of the Claude Desktop app works the same way.
 
 **Claude (web and Desktop chat):** add the marketplace
 `C-Kapsalis/second-read` under Customize > Plugins, or upload
-`second-read-plugin.zip` there, or upload the two skill zips under
+`second-read-plugin.zip` there, or upload the skill zips under
 Customize > Skills. Code execution must be on. There is no session hook in
 chat, so say "give this a second read" and the skill loads from its
 description. Menu labels may differ in your version.
 
-**ChatGPT:** upload the two skill zips (Plugins > Skills), or use the custom
+**ChatGPT:** upload the skill zips (Plugins > Skills), or use the custom
 GPT or Project instructions in [adapters/chatgpt/](adapters/chatgpt/) as a
 fallback. Untested; a public listing in OpenAI's directories is the
 publisher's choice, see [PUBLISHING.md](PUBLISHING.md).

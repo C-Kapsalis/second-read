@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "second-read",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Second Read: the colleague you send it to before you hit send. Reviews emails, social posts, landing pages, blog posts and technical docs (READMEs, tutorials, how-tos, reference, release notes), proves every fix with a quote and a named rule, leaves correct details alone, and rewrites without inventing facts.",
   "author": {
     "name": "Christoforos Kapsalis",

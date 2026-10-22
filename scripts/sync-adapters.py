@@ -40,13 +40,16 @@ WINDSURF_DST = ".windsurf/rules/second-read.md"
 WINDSURF_LIMIT = 6000
 
 
-# ChatGPT knowledge files (Custom GPT or Project fallback): the skills' references.
+# ChatGPT knowledge files (Custom GPT or Project fallback): the copy and docs
+# skills' references. The editor skill needs its scripts, so it ships as a skill only.
 KNOWLEDGE = REPO / "adapters" / "chatgpt" / "knowledge"
+KNOWLEDGE_SKILLS = ("second-read", "docs")
 
 
 def knowledge_copies():
-    for ref in sorted(REPO.glob("skills/*/references/*.md")):
-        yield KNOWLEDGE / ref.name, ref.read_text()
+    for skill in KNOWLEDGE_SKILLS:
+        for ref in sorted(REPO.glob(f"skills/{skill}/references/*.md")):
+            yield KNOWLEDGE / ref.name, ref.read_text()
 
 
 def main() -> int:

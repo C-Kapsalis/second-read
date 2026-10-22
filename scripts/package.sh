@@ -6,7 +6,7 @@
 #                                Customize > Plugins in Claude (web or Desktop).
 #   second-read-skill.zip        one skill folder (copy review), for
 #   second-read-docs-skill.zip   Customize > Skills in Claude. Exactly one
-#                                top-level folder, one SKILL.md, no manifest.
+#   second-read-editor-skill.zip top-level folder, one SKILL.md, no manifest.
 #   second-read-chatgpt.zip      ChatGPT plugin: plugin.json + skills/ (no
 #                                hooks), for the ChatGPT plugin upload.
 #
@@ -27,6 +27,7 @@ mkdir -p "$DIST"
 # ChatGPT zip keep the long one from SKILL.md.
 SHORT_COPY='Second read for marketing copy (email, social post, landing page, blog post). Use for "second read" or to review/proofread/rewrite copy before it goes out.'
 SHORT_DOCS='Second read for technical docs (README, tutorial, how-to, reference, release notes). Use for "second read" or to review/proofread/rewrite docs before publishing.'
+SHORT_EDITOR='Second Read editor: proposes source-anchored edits in reading order, asks where a reader may diverge, exports the author-approved draft. Use to edit or restructure a draft.'
 
 # Copy one skill folder to $2, renaming the skill (folder and `name:`) to $3.
 # With $4, replace the frontmatter description with that one line, in YAML
@@ -55,7 +56,7 @@ zip_dir() { # zip the contents of directory $1 into $2
 # 1. Claude plugin
 P="$STAGE/plugin"
 mkdir -p "$P/.claude-plugin" "$P/hooks"
-cp "$ROOT/.claude-plugin/plugin.json" "$P/.claude-plugin/"
+cp "$ROOT/.claude-plugin/plugin.json" "$ROOT/.claude-plugin/icon.png" "$P/.claude-plugin/"
 cp -R "$ROOT/skills" "$P/"
 cp "$ROOT/hooks/claude-hooks.json" "$ROOT/hooks/core.md" "$P/hooks/"
 cp "$ROOT/LICENSE" "$ROOT/README.md" "$P/"
@@ -67,6 +68,8 @@ copy_skill second-read "$STAGE/skill/second-read" second-read "$SHORT_COPY"
 zip_dir "$STAGE/skill" "$DIST/second-read-skill.zip"
 copy_skill docs "$STAGE/docs-skill/second-read-docs" second-read-docs "$SHORT_DOCS"
 zip_dir "$STAGE/docs-skill" "$DIST/second-read-docs-skill.zip"
+copy_skill editor "$STAGE/editor-skill/second-read-editor" second-read-editor "$SHORT_EDITOR"
+zip_dir "$STAGE/editor-skill" "$DIST/second-read-editor-skill.zip"
 
 # 3. ChatGPT plugin: skills only, no hooks
 C="$STAGE/chatgpt"
@@ -74,6 +77,7 @@ mkdir -p "$C/skills"
 cp "$ROOT/adapters/chatgpt/plugin.json" "$C/"
 copy_skill second-read "$C/skills/second-read" second-read
 copy_skill docs "$C/skills/second-read-docs" second-read-docs
+copy_skill editor "$C/skills/second-read-editor" second-read-editor
 cp "$ROOT/LICENSE" "$C/"
 zip_dir "$C" "$DIST/second-read-chatgpt.zip"
 

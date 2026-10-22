@@ -1,6 +1,6 @@
 {
   "name": "second-read",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Second Read: the colleague you send it to before you hit send. Reviews marketing copy and technical docs, proves every fix with a quote and a rule, and rewrites without inventing facts.",
   "contextFileName": "AGENTS.md"
 }
