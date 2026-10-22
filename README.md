@@ -23,6 +23,22 @@ hands back the edits it would make, each tied to the exact words it changes.
 4. **Assembles the version you approve** and proofreads the new order again.
    It keeps your voice and invents no facts. A clean draft gets zero changes.
 
+## How to ask
+
+Paste your brief and the draft in this shape. Second Read asks for any part
+you leave out, because the review is measured against what you meant, not
+against what the draft happens to say:
+
+```
+My actual intention: Argue that the city should run a six-month pilot to
+make late-night buses reliable before deciding anything about fares.
+Audience: Residents who know little about transport policy.
+Voice: Direct, thoughtful, memorable. Not academic or promotional.
+Constraints: Keep my strongest sentences. Invent no statistics or policies.
+Draft:
+...
+```
+
 It picks its checks from what the draft does, not from its length: essays and
 explanations, policy arguments, fiction and narrative, copy and branding, and
 documentation after [Diátaxis](https://diataxis.fr).

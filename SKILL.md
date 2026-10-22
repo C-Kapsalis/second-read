@@ -1,12 +1,26 @@
 ---
 name: second-read
 description: >-
-  Second Read's contextual editing and proofreading workflow for any draft plus its author brief, audience, evidence, constraints and product context. Use when the author asks to review, proofread, edit, strengthen, shorten, clarify or restructure writing before publication. Identify related arguments in reading order, propose source-anchored edits, optionally test the author's understanding with sequential questions, and export an author-approved revision. Route to specialized references for essays, policy arguments, fiction, branding, short copy and Diataxis documentation without choosing a pathway by word count.
+  Second Read: a second read for any draft before it is published or sent, together with its author brief, audience, evidence, constraints and product context. Use when the author shares an email, post, landing page, announcement, essay, opinion piece, story, README, tutorial or docs page and asks for a second read, asks to review, proofread, edit, strengthen, shorten, clarify or restructure it, or asks "is this ready to publish?" or "anything I missed?". Identify related arguments in reading order, propose source-anchored edits, place questions where a first-time reader may diverge from the author's intent, and export an author-approved revision that invents no facts. Route to references for essays, policy arguments, fiction, copy and branding, and Diataxis documentation without choosing a pathway by word count.
 ---
 
 # Second Read — edit the writing, not just its explanation
 
-Remain inside **Second Read**. This skill complements the existing `second-read` (copy) and `docs` (technical docs) workflows. A plugin may offer several skill paths, but authors experience one coherent review. The principal deliverable is **proposed wording and structural changes** and an author-approved, reusable draft. Maps and questions exist only to help make editing decisions.
+Remain inside **Second Read**. Copy, documentation, essays, arguments and fiction all go through this one review; the references add the checks each kind of writing needs. The principal deliverable is **proposed wording and structural changes** and an author-approved, reusable draft. Maps and questions exist only to help make editing decisions.
+
+## Brief first
+
+The review is measured against what the author meant, so get the brief before reviewing. If the author has not given all five parts, ask for the missing ones in one short message with this template, then wait:
+
+```
+My actual intention:
+Audience:
+Voice:
+Constraints:
+Draft:
+```
+
+Fill in anything the conversation already makes clear instead of asking again. Never infer the intention from the draft alone: the draft may be exactly what contradicts it. If the author asks you to go ahead without a part, proceed and label that part "assumed" in the review.
 
 ## Context first, never format first
 
@@ -19,7 +33,7 @@ Remain inside **Second Read**. This skill complements the existing `second-read`
 
 **Pass 1 — Read as the intended reader.** Move through the draft in its actual order. For each meaningful section, note its function: claim, evidence, example, explanation, counterargument, transition, decision or deliberately expressive passage. Connect related spans into **argument threads**, each with a stable label and optional color. Thread labels must be readable without colors. Track whether a generalization has an appropriate concrete instance and whether an example serves a discernible point when the genre requires it.
 
-**Pass 2 — Identify a concrete revision opportunity.** Find contradictions with the brief; unsupported statements; poor setup, sequencing or transitions; repetitions; missing prerequisites; confusing first impressions; grammar or terminology errors. Quote the exact passage and describe the reader consequence. Ignore differences that are merely taste. For each real finding, propose the **smallest useful actual edit**: `replace`, `insert_after`, `move_after`, or `delete`. Mark whether it is **required to correct a checkable error** or **optional for style/flow**.
+**Pass 2 — Identify a concrete revision opportunity.** Find contradictions with the brief; unsupported statements; poor setup, sequencing or transitions; repetitions; missing prerequisites; confusing first impressions; grammar or terminology errors. Quote the exact passage and describe the reader consequence. Ignore differences that are merely taste. For each real finding, propose the **smallest useful actual edit**: `replace`, `insert_after`, `move_after`, or `delete`. Mark whether it is **required to correct a checkable error** or **optional for style/flow**. Required means you can show the error: the text contradicts the brief, a supplied source, the calendar, arithmetic or itself, or a step cannot work as written. A word that *could* be misread, but whose ordinary reading matches the brief, is optional at most, and usually not worth raising. Before calling a draft not ready, re-read each required finding against that test; a clean draft is reported as ready, with at most two optional notes.
 
 **Pass 3 — Check the argument's sequence, in context.** When the reader's understanding could diverge materially from the author's intention, propose at most 1–3 questions **at the exact stage of reading where the divergence occurs**, not an end-of-document exam. Questions test what the current passage establishes, what it presupposes, or what the next point depends on. Link each question to the relevant thread, exact source paragraph and a proposed revision. Include a plausible cold-reader answer and explain its limits. There are no personality diagnoses, scores for intelligence or forced agreement: disagreement opens a passage to revisit. **When working in ordinary chat without the interactive editor, present these as “Questions to yourself after reading this once” immediately after the exact relevant passage in a short annotated view of the original, in reading order.** Keep original words unchanged; distinguish each question from draft text and never insert it into the revised draft. Do not ask the writer to answer before offering the edits. See `references/SEQUENCE-AND-QUIZZES.md`.
 
@@ -34,8 +48,8 @@ Read `references/PATHWAYS.md`, then the specific short reference(s) suited to th
 - `references/ESSAYS-AND-EXPLANATIONS.md` — expertise, academic/explanatory writing, conceptual hierarchy.
 - `references/POLICY-AND-ARGUMENTS.md` — value claims, evidence assumptions, counterarguments, uncertainty; consistent neutrality.
 - `references/FICTION-AND-NARRATIVE.md` — scene logic, voice, subtext, pacing and deliberate ambiguity.
-- `references/COPY-AND-BRANDING.md` — branding, short announcements, emails, hooks, useful ambiguity and contextual impact; existing `second-read` operational rules still apply.
-- `references/DOCS-AND-DIATAXIS.md` — README, tutorials, how-to, reference and explanation; existing `docs` rules and optional real product verification still apply.
+- `references/COPY-AND-BRANDING.md` — branding, short announcements, emails, hooks, useful ambiguity and contextual impact; checkable facts, offers, calls to action, disclosures and platform limits.
+- `references/DOCS-AND-DIATAXIS.md` — README, tutorials, how-to, reference and explanation; prerequisites, runnable steps, examples that match the reference, mode mixing, and optional real product verification.
 
 Choose more than one when necessary. This is a routing scheme for the agent, **not five brands or forced user-facing menus**.
 
@@ -55,6 +69,6 @@ For product claims, use `references/PRODUCT-VERIFICATION.md` with authorized sou
 
 ## Output expectation
 
-Give a revised draft or explicit set of proposed edits, **not just maps**. Offer a compact view of the author purpose, first-impression risk, up to two consequential edit proposals, and a complete revised version after decisions. Optional flow highlighting and sequence questions serve those edits. If everything works, say ready and keep the original.
+Give a revised draft or explicit set of proposed edits, **not just maps**. Offer a compact view of the author purpose, first-impression risk, up to two consequential edit proposals, and a complete revised version after decisions. In ordinary chat, do not force an extra round trip: after the proposals, show the revised draft with the **required** edits applied and name the edits it contains, so the author can reject any of them; list optional edits separately. Optional flow highlighting and sequence questions serve those edits. If everything works, say ready and keep the original.
 
 Never describe the author's chosen answers as ignorance. An author can intentionally want readers to draw an unexpected inference. When they do, preserve that decision and offer edits only to make the intended effect clearer.

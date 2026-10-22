@@ -5,7 +5,7 @@ Product claims remain unknown unless a specifically scoped source or observed
 runtime probe corroborates them. Source inspection does NOT prove behavior.
 No program or network requests run unless the caller opts in explicitly.
 
-python3 tools/product_verify.py --root . --manifest claims.json --document README.md --json report.json
+python3 scripts/product_verify.py --root . --manifest claims.json --document README.md --json report.json
 """
 from __future__ import annotations
 
