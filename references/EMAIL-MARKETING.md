@@ -12,6 +12,10 @@ Load for broadcast marketing, lifecycle, nurture, onboarding, transactional-adja
 - **Continuity:** the landing page or product should fulfill the email's specific promise. Look for price, date, feature-status, and audience changes across campaign assets.
 - **Metrics:** do not claim an open-rate or click lift without a real experiment. A/B variant is an **optional proposed test**, not a predicted result.
 
+## Limits of numerical heuristics
+
+Treat the author's email-scoring dimensions as **latent review lenses**—attention, clarity, trust, relevance, action friction and authenticity—rather than a required visible 1–5 scorecard. No universal 30–50-character subject rule, grade-level target, spam-trigger-word penalty or projected CTR uplift is reliable without project- and provider-specific evidence. A/B testing validates observed outcomes, not guesses. Sender authentication and unsubscribe requirements are technical/compliance checks conditional on jurisdiction, sending volume and email type: https://support.google.com/mail/answer/81126 . Do not claim to have checked them from body text alone.
+
 ## User rule pack matters
 
 If the organization has email writing principles, load those first using `AUTHOR-RULESETS.md`: greetings, line length, humour, vocabulary, sender voice, audience segmentation, preheader conventions, footer requirements, frequency or disclosure. Describe where the rule applied, not every rule that passed.

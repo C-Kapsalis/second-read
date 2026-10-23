@@ -1,28 +1,24 @@
-# Pathways: a shared review with selectively loaded expertise
+# Pathways: load only what this writing does
 
-Choose by **writer/project intention and the reader's actual task**, not by word count, file extension, or social platform. If the author provides company, campaign, product, publication or house style information, load `PROJECT-CONTEXT.md` and (if rules provided) `AUTHOR-RULESETS.md` first. For any substantive claim or proposed rewrite load `SEMANTIC-PRECISION.md`; inspect `EDITORIAL-RESTRAINT.md` before surfacing a suggestion. `NATURAL-VOICE.md` is a lightweight cross-pathway check, not a mandatory style report.
+Select by the publication's **actual job**, project affiliation and reader, not word count, platform or extension. Load [EDITORIAL-JUDGMENT](EDITORIAL-JUDGMENT.md) for material revisions. The following references are **branch-specific**, not a checklist to load wholesale.
 
-| Communicative job | Specific references to load (in addition to shared core) |
+| Trigger | Load |
 |---|---|
-| Expertise, explanation, conceptual essay | `ESSAYS-AND-EXPLANATIONS.md`, `READER-KNOWLEDGE.md` |
-| Policy, political or contested argument | `POLICY-AND-ARGUMENTS.md`, `READER-KNOWLEDGE.md` |
-| Fiction, memoir, narrative | `FICTION-AND-NARRATIVE.md`, `READER-KNOWLEDGE.md` only for consequential sequence issues |
-| Brand positioning, short message, announcement | `COPY-AND-BRANDING.md` |
-| Marketing email, newsletter, onboarding | `COPY-AND-BRANDING.md`, `EMAIL-MARKETING.md` |
-| SEO-oriented blog article | `ESSAYS-AND-EXPLANATIONS.md`, `SEO-CONTENT.md` |
-| Conversion landing page | `COPY-AND-BRANDING.md`, `LANDING-PAGES.md` |
-| Text ad | `COPY-AND-BRANDING.md`, `AD-COPY.md` |
-| Reported journalism and data article | `JOURNALISM.md`; `DATA-STORYTELLING.md` only if quantitative relationships justify it |
-| README, technical docs, procedure, API reference | `DOCS-AND-DIATAXIS.md`, `PRODUCT-VERIFICATION.md` only for actual product claims |
-| Canonical-style docs | `DOCS-AND-DIATAXIS.md` plus `CANONICAL-DOCS.md` **only when adopted** |
+| Project/company/campaign/publication context | [PROJECT-CONTEXT](PROJECT-CONTEXT.md), [BRAND-POSITIONING](BRAND-POSITIONING.md) when representing a brand; [AUTHOR-RULESETS](AUTHOR-RULESETS.md) when rules exist |
+| Obsidian vault, Notion wiki/database, local Markdown repository or shared workspace file | [KNOWLEDGE-BASES](KNOWLEDGE-BASES.md); consult focused linked notes before asking for a new brief |
+| Conceptual essay / explanation | [ESSAYS-AND-EXPLANATIONS](ESSAYS-AND-EXPLANATIONS.md) |
+| Policy argument / political essay | [POLICY-AND-ARGUMENTS](POLICY-AND-ARGUMENTS.md) |
+| Fiction / memoir / narrative | [FICTION-AND-NARRATIVE](FICTION-AND-NARRATIVE.md) |
+| Brand expression / marketing copy / social message | [COPY-AND-BRANDING](COPY-AND-BRANDING.md) |
+| Newsletter / promotional / onboarding / personal outreach email | [EMAIL-MARKETING](EMAIL-MARKETING.md) |
+| Search-discoverable blog / article | [SEO-CONTENT](SEO-CONTENT.md) plus essay or journalism as appropriate |
+| Conversion landing page | [LANDING-PAGES](LANDING-PAGES.md) |
+| Paid text advertising | [AD-COPY](AD-COPY.md) |
+| Press release / journalist pitch / statement / media Q&A / crisis communication | [PR-AND-MEDIA-RELATIONS](PR-AND-MEDIA-RELATIONS.md) **not default ad-copy rules** |
+| Independently reported news / analysis / investigation | [JOURNALISM](JOURNALISM.md); [DATA-STORYTELLING](DATA-STORYTELLING.md) only if data complexity merits a visual suggestion |
+| Any technical documentation, README, tutorial, how-to, explanation or API reference | [DOCUMENTATION](DOCUMENTATION.md) — **Canonical's documentation style is the sole house writing style for this pathway**; [PRODUCT-VERIFICATION](PRODUCT-VERIFICATION.md) for checkable product behavior |
+| Formulaic/generic language weakens the actual text | [ANTI-FORMULAIC-PROSE](ANTI-FORMULAIC-PROSE.md), irrespective of whether AI authored it |
 
-A single piece may need several pathways: a product launch blog could require brand, SEO and product verification. Never apply all references indiscriminately. A short post can be semantically dense; a long manual may require only one prerequisite correction.
+A document may justify multiple branches, e.g. a product launch article may require positioning, SEO and factual product evidence; a press release is **PR**, even if its sponsor is commercial. An opinion piece is not automatically independently reported journalism. The Oxford University house style is not a universal news style. Use the author's own documented non-documentation house rules when in scope.
 
-## Routing examples
-
-- **Newsletter for a software launch:** `PROJECT-CONTEXT` → `AUTHOR-RULESETS` (if supplied) → `EMAIL-MARKETING` → relevant `PRODUCT-VERIFICATION` when claiming a shipped feature.
-- **Oxford-affiliated research news article:** `JOURNALISM` + Oxford institutional style *if adopted*; Oxford's house style alone is not newsroom evidence ethics.
-- **Product how-to in Ubuntu docs:** `DOCS-AND-DIATAXIS` + `CANONICAL-DOCS` + authorized product verification.
-- **Political essay with two numerical series:** `POLICY-AND-ARGUMENTS` + `JOURNALISM` for attribution if reported + `DATA-STORYTELLING` only if a chart would improve the comparison.
-
-Load content references once, based on need; do not force the user through a menu or display the internal routing table. Always lead with actionable proposed edits, not a bibliography of rules.
+No genre picker, exposed scores or extra sections. If the draft needs no edits, return it unchanged.

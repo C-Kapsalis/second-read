@@ -1,6 +1,6 @@
 # Editorial SEO for articles and blog pieces
 
-Use when the publication's purpose includes discoverability through search. **People-first content is the criterion; keyword padding is not.** Google explicitly warns against writing primarily to manipulate rankings and states there is no preferred article word count. Consult its current official documentation rather than inherited folk rules.
+Use when the publication's purpose includes discoverability through search. **People-first content is the criterion; keyword padding is not.** Google explicitly warns against writing primarily to manipulate rankings and states there is no preferred article word count. Do not impose a 3–5% keyword density, so-called LSI keywords, or placement of the exact keyword in every heading/alt-text field; write descriptive headings, links and alternatives that serve actual readers. Consult its current official documentation rather than inherited folk rules.
 
 ## Decide the actual search job
 

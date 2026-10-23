@@ -25,9 +25,10 @@ hands back the edits it would make, each tied to the exact words it changes.
 
 ## How to ask
 
-Paste your brief and the draft in this shape. Second Read asks for any part
-you leave out, because the review is measured against what you meant, not
-against what the draft happens to say:
+Paste a brief and draft in this shape when you can. If you are editing an
+existing file in a knowledge base, Second Read can first inspect **relevant,
+authorized project context** from linked notes or connected tools. It asks for
+a missing detail only when the answer could materially change an edit:
 
 ```
 My actual intention: Argue that the city should run a six-month pilot to
@@ -41,7 +42,64 @@ Draft:
 
 It picks its checks from what the draft does, not from its length: essays and
 explanations, policy arguments, fiction and narrative, copy and branding, and
-documentation after [Diátaxis](https://diataxis.fr).
+documentation using [Canonical's documentation style](https://documentation.ubuntu.com/style-guide/)
+and [Diátaxis](https://diataxis.fr), plus distinct pathways for public relations,
+reported journalism, SEO, emails, landing pages and paid textual ads.
+
+
+## Writing inside an Obsidian vault, Notion workspace or Markdown repository
+
+Second Read is particularly useful when the draft belongs to a larger text-based
+project: a product, company, publication, campaign or personal knowledge base.
+When the agent can read that workspace, it should **start with the draft and its
+relevant links**, discover approved positioning/terminology/earlier assets, and
+propose the same two-or-fewer concrete edits. It does not need the whole vault
+in its model context, nor does it need permission to reorganize it.
+
+For local Markdown/Obsidian, the optional read-only helper returns a small list
+of candidate related notes **without their full content**:
+
+```sh
+python3 scripts/knowledge_context.py --root /path/to/vault --target projects/launch/draft.md
+```
+
+The agent still needs to read the relevant files and judge provenance; it
+must not assume every backlinked note is current or authoritative. With Notion,
+use your authorized Notion integration if available. The skill alone does
+not provide a Notion connection, and the Notion API's standard search endpoint
+is [title-based](https://developers.notion.com/reference/post-search), not
+full-text search.
+
+### Optional ways to make a knowledge base easier for agents to navigate
+
+You **do not need to change your organization** to use Second Read. For a new
+or growing workspace, the following *suggestions* can reduce irrelevant
+retrieval and repeated instructions, although they are not guaranteed token
+savings and are not required by the skill:
+
+- Link each ongoing project from a short **index or map of content**, then
+  link its brief, approved claims, writing conventions and related drafts.
+- Use existing Obsidian **properties/tags/aliases** or Notion **database
+  properties/relations** for project, status and ownership *where helpful*;
+  do not create duplicate metadata merely for an agent.
+- Keep the *current* brief and product facts easy to distinguish from old
+  brainstorms and unpublished variants. In Notion, **page owners and
+  verification** can help people identify maintained pages; verification
+  does not independently prove business claims.
+- Give agent-facing instructions **short, descriptive pointers** to deeper
+  references, instead of copying brand rules into every draft. Read only
+  the relevant sections before expanding. Keep one source of truth.
+
+**Authoritative references:** [Obsidian properties](https://obsidian.md/help/properties),
+[internal links](https://obsidian.md/help/links),
+[search](https://obsidian.md/help/plugins/search),
+[backlinks](https://obsidian.md/help/plugins/backlinks);
+[Notion workspaces and databases](https://www.notion.com/help/guides/how-to-set-up-your-notion-workspace-for-your-team),
+[wikis and verified pages](https://www.notion.com/help/wikis-and-verified-pages);
+[Matt Pocock's *writing-for-agents*](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents)
+(context pointers, progressive disclosure, pruning duplicate instructions).
+These resources describe their platforms or a design approach, **not an
+obligatory universal folder template**.
 
 ## Install
 
@@ -100,7 +158,7 @@ installs are untested, so please open an issue with what happened.
 
 ## The scripts (optional)
 
-The skill works in plain chat. Two scripts, Python standard library only,
+The skill works in plain chat. Optional scripts, Python standard library only,
 add a reproducible trail:
 
 ```sh

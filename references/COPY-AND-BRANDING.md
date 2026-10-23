@@ -10,7 +10,7 @@ This route covers brand positioning, announcements, short posts, emails, adverti
 - Where an action is part of the content, say what will actually happen. Do not force a sales CTA into community speech, satire or identity expression.
 - Protect context: an apparently cryptic two-word reply may depend on the immediately preceding message, and that is an advantage, not an error.
 - Protect specificity and memorability. Shortness can produce extraordinary emotional force; don't confuse economy with insufficient information.
-- Detect generic AI-looking filler only if it weakens the actual message; use `NATURAL-VOICE.md` without inferring authorship.
+- Detect generic AI-looking filler only if it weakens the actual message; use `ANTI-FORMULAIC-PROSE.md` without inferring authorship.
 
 ## Paired cases
 

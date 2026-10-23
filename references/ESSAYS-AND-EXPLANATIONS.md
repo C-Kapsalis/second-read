@@ -1,6 +1,6 @@
 # Essays, analysis and expert explanation
 
-Use this pathway when the author is making a complex idea intelligible, engaging an informed audience or developing an argument across a sustained piece. Load `SEMANTIC-PRECISION.md`, `READER-KNOWLEDGE.md` and `EDITORIAL-RESTRAINT.md` for substantive changes. Read actual audience and project context first, not a presumed university essay template.
+Use this pathway when the author is making a complex idea intelligible, engaging an informed audience or developing an argument across a sustained piece. Load `EDITORIAL-JUDGMENT.md` for substantive changes. Read actual audience and project context first, not a presumed university essay template.
 
 ## Look for reader-operational defects
 
