@@ -1,31 +1,20 @@
-# Data journalism: suggest a visual only when it carries meaning better
+# Data journalism: sometimes a chart is the shortest truthful sentence
 
-The editing skill reviews **text**. This reference may recommend an explanatory visual as a *separate author action*; it must never require drawing one or hide missing evidence behind attractive graphics. Use when a news or analytical piece asks readers to compare quantitative structure.
+The skill edits **text**. Suggest, but do not render or require, a graphic when a verified quantitative relationship is genuinely harder to understand in prose. Ask what the reader must compare, not whether the story can be decorated.
 
-## Decide if a visual serves the reader
-
-Ask: What would the reader have to hold in working memory to understand the claim? What relationship must they see? Is there validated, comparable underlying data? What question will the visual answer more quickly or reliably than one sentence or a small table?
-
-| Editorial task | Preferred option to consider | Often better without a chart |
+| Reader's job | Consider | Leave as prose when |
 |---|---|---|
-| Change over time with multiple observations | Line chart with clear scale/interval | One isolated before/after change with two values |
-| Compare categories | Sorted bar/dot plot with units and category names | One obvious pair of numbers |
-| Show a distribution | Histogram/box distribution with denominators | No individual observations, only an average |
-| Relationship between two measured variables | Scatter plot with definitions, uncertainty, no causal claim | No reliable paired values |
-| Geographic pattern | Map with appropriate population normalization | Only two named sites or an incidental place |
-| Process/claim dependencies | Flow diagram or labeled argument map | Short self-contained reasoning, already clear in prose |
+| Multiple time points or series | Line chart with comparable intervals | Only one simple before/after fact |
+| Many categories | Sorted bar or dot comparison | A single clear pair |
+| Variation hidden by average | Distribution plot; report median/spread | Underlying distribution is missing |
+| Relationship between variables | Scatterplot with units and uncertainty | Paired data are absent or causation would be implied falsely |
+| Geography is the explanatory variable | Map with properly normalized denominator | Place is incidental or two locations suffice |
+| Process or logical dependency | Flow diagram if relationships are hard to follow | Two sentences already express the relationship |
 
-## Verification before recommendation
+**Before suggesting:** check provenance, units, comparable periods, missingness, denominators, selection, scale, uncertainty and accessibility. A chart does not fix unsupported data. Suggest source tables or alt text where relevant, but no mandatory design task.
 
-Identify source, version, collection period, measurement definitions, exclusions/missingness, denominators, axis scales, uncertainty and licenses. If those are unavailable, mark `needs_data`; do not present a finished chart or infer correlation as causation. Require accessible text alternatives and a textual takeaway. Avoid truncated/misleading scales or chart junk.
+**Edit suggestion:** an article requires comparison of eight regions over ten annual observations. Recommend a labeled trend visualization *once source series are checked*; shorten the repetitive prose after the visual exists.
 
-## Example
+**Leave:** "Applications rose from 10 to 12." A chart likely adds more work than understanding.
 
-**Edit recommendation — warranted visualization:** Article compares a decade of annual household electricity bills in eight regions with differing base populations. Recommend an aligned trend chart **after** verifying comparable periods and units, with accessible table/text summary; revise the paragraph to state the specific supported pattern.
-
-**Leave text alone — no benefit:** “Applications rose from 10 to 12.” A chart may add cognitive load instead of clarity. Keep it in prose unless the wider project needs a series comparison.
-
-## Sources
-
-- Data Journalism Handbook: https://datajournalism.com/read/handbook/one/understanding-data/using-data-visualization-to-find-insights-in-data
-- Datawrapper chart choice guide: https://www.datawrapper.de/blog/chart-types-guide
+**Authority:** Financial Times Visual Vocabulary organizes visualization choices by relationship and sits within newsroom training: https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/README.md . For broader reporting practice see https://datajournalism.com/read/handbook/two .

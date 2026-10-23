@@ -13,7 +13,7 @@ Use `assets/project-context.example.json` as one possible structured format. Do 
 - “Our emails never open with corporate politeness.” Check for needless salutations **in email campaigns governed by this rule**; leave one-to-one personal correspondence alone.
 - “Avoid vague claims such as ‘transform your workflow’.” Suggest wording grounded in a supplied benefit. Do not invent numbers or outcomes.
 - “Our ads place the offer before the product story.” Apply only to ads carrying that campaign offer, not brand storytelling with no transactional objective.
-- “Always title-case headings.” If a documentation project explicitly adopts Canonical's sentence-case guide, flag the conflict; don't silently apply one globally.
+- “Always title-case headings.” Apply this only outside documentation when adopted. For documentation, Canonical's sentence-case guide is the sole house writing style in Second Read; explain the scope only when the conflict changes a real edit.
 
 ## If rules conflict
 

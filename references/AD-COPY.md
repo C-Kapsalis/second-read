@@ -25,6 +25,10 @@ Use for text ads and paid/social placements. Respect the declared platform, dest
 - Original: “Free for everyone.” Terms say a seven-day trial needs a card.
 - Suggested: “Try it for seven days” with required qualification from verified terms. Do not create an unapproved offer.
 
+## Platform mechanics are not timeless prose rules
+
+For Google responsive search ads, verify live format/length limits and test whether independently combined headlines remain accurate. **Google Ads Quality Score (1–10) is a diagnostic, not a direct input to Ad Rank**; do not use the inherited formula "Ad Rank = bid × Quality Score" as factual analysis. Current authoritative references: https://support.google.com/google-ads/answer/1722122 and https://support.google.com/google-ads/answer/6167118 .
+
 ## Compliance boundary
 
 Check actual advertising laws and platform policies for the indicated audience. US baseline: https://www.ftc.gov/business-guidance/advertising-marketing and https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking . Do not impose US-specific statements as universal Greek/EU law. Platform policies change; verify current version when available.
