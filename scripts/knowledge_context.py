@@ -31,7 +31,7 @@ class ContextError(ValueError):
 
 def in_root(path: Path, root: Path) -> bool:
     try:
-        path.resolve().relative_to(root)
+        path.resolve().relative_to(root.resolve())
         return True
     except ValueError:
         return False
@@ -102,7 +102,14 @@ class Note:
 
 
 def read_note(path: Path, root: Path, max_bytes: int) -> Note | None:
-    if not allowed(path, root) or not path.is_file() or path.is_symlink():
+    root = root.resolve(strict=True)
+    if path.is_symlink():
+        return None
+    try:
+        path = path.resolve(strict=True)
+    except OSError:
+        return None
+    if not allowed(path, root) or not path.is_file():
         return None
     try:
         if path.stat().st_size > max_bytes:

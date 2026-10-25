@@ -1,6 +1,6 @@
 {
   "name": "second-read",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Contextual editing and proofreading for any draft: reads it in the reader's order, proposes source-anchored edits, asks where a first-time reader may diverge from your intent, and exports the revision you approve. Read it twice. Send it once.",
   "author": {
     "name": "Christoforos Kapsalis",
@@ -9,6 +9,16 @@
   "homepage": "https://github.com/C-Kapsalis/second-read",
   "repository": "https://github.com/C-Kapsalis/second-read",
   "license": "MIT",
-  "keywords": ["editing", "proofreading", "copywriting", "documentation", "technical-writing", "diataxis", "essays"],
-  "skills": ["./"]
+  "keywords": [
+    "editing",
+    "proofreading",
+    "copywriting",
+    "documentation",
+    "technical-writing",
+    "diataxis",
+    "essays"
+  ],
+  "skills": [
+    "./"
+  ]
 }

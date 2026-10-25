@@ -164,6 +164,7 @@ def probe(root: Path, spec: dict, allow_exec: bool = False, allow_network: bool 
 
 
 def verify_manifest(root: Path, manifest: dict, document: str | None = None, allow_exec: bool = False, allow_network: bool = False) -> dict:
+    root = root.resolve(strict=True)
     if manifest.get("schema_version") != 1 or not isinstance(manifest.get("claims"), list):
         raise ValueError("manifest needs schema_version: 1 and claims: [...] ")
     ids = set()

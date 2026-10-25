@@ -1,4 +1,4 @@
-# Second Read — research-led editorial and context update
+# Second Read 0.3.0 — editorial architecture and context update
 
 One skill, same optional offline editor, no forced output or UI change.
 
@@ -7,3 +7,5 @@ Changes: leaner `SKILL.md`; unified semantic/reader/restraint decisions; branch-
 **Evidence limits:** no live-model editorial benchmark is claimed; user-supplied marketing scores/benchmarks are diagnostic proposals, not ground-truth performance guarantees. External standards should be consulted in their current editions; no complete copyrighted style guide is reproduced here.
 
 **Compatibility:** previous JSON editing and verification scripts and offline editor template remain untouched.
+
+**Portability fixes:** normalize vault and product-checkout paths before containment checks so the read-only helpers and regression suite behave consistently on macOS paths that resolve through `/var` to `/private/var`.
