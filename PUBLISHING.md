@@ -31,6 +31,26 @@ Review the version in `plugin.json` and `.claude-plugin/plugin.json`, update
 tag. `.github/workflows/release.yml` builds all archives and attaches them to
 the GitHub release. Do not commit `dist/`; it is generated from the tag.
 
+## OpenClaw / ClawHub
+
+The repository root is one Agent Skill (`SKILL.md`). In ClawHub's GitHub
+importer, import the repository root as a **skill**. `.clawhubignore` keeps
+other-host plugin manifests, release documentation and tests out of the
+published skill while retaining `references/`, `scripts/` and `assets/` used
+by the skill.
+
+Once the listing is public, OpenClaw users can install it with:
+
+```sh
+openclaw skills install @c-kapsalis/second-read
+```
+
+ClawHub currently requires skills published there to use MIT-0; the GitHub
+repository's separate LICENSE remains MIT. If ClawHub reports that a security
+check could not complete and says it is waiting for another attempt, do not
+re-upload solely to retry that check; use the dashboard diagnostics or contact
+ClawHub support if the state persists.
+
 ## Marketplaces and directories
 
 Claude Code users can add the GitHub marketplace and install the plugin:

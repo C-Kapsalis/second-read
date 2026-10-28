@@ -1,0 +1,14 @@
+# Publish the root Agent Skill and only its runtime support files to ClawHub.
+# Exclude repository documentation, other-host manifests, and development fixtures.
+README.md
+PUBLISHING.md
+RELEASE-NOTES.md
+LICENSE
+plugin.json
+.claude-plugin/
+.codex-plugin/
+.github/
+.agents/
+adapters/
+agents/
+tests/
