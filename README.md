@@ -6,6 +6,11 @@
 
 <p align="center"><em>Read it twice. Send it once.</em></p>
 
+<p align="center">
+  <a href="https://github.com/C-Kapsalis/second-read/stargazers"><img src="https://img.shields.io/github/stars/C-Kapsalis/second-read?style=flat-square&label=Stars" alt="GitHub stars"></a>
+  <a href="https://github.com/C-Kapsalis"><img src="https://img.shields.io/github/followers/C-Kapsalis?style=flat-square&label=Follow%20C-Kapsalis" alt="Follow C-Kapsalis on GitHub"></a>
+</p>
+
 Second Read is an agent skill for editing a draft before you publish it. Give
 your agent the draft and what it is for: who reads it, what it must do, what
 you can prove. Second Read reads it the way that reader will, in order, and
@@ -121,6 +126,10 @@ Download `second-read.zip` from the
 and upload it as a skill (Claude: Customize > Skills; ChatGPT: the Skills
 tab). In Claude you can instead upload `second-read-plugin.zip` under
 Customize > Plugins. Code execution must be on for the scripts.
+
+For a ChatGPT or Codex public plugin-directory submission, the release also
+includes `second-read-openai.zip`, a portable skills-only package. A directory
+listing appears only after the platform review and publication steps.
 
 ### OpenCode, OpenClaw, Codex, Gemini CLI, Cursor, Copilot, Goose, Cline, Windsurf and other agents
 

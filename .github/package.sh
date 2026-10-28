@@ -31,6 +31,14 @@ copy_skill() {
 copy_skill "$STAGE/skill/second-read"
 (cd "$STAGE/skill" && zip -qrX "$DIST/second-read.zip" .)
 
+# Portable, skills-only package for the ChatGPT/Codex public plugin directory.
+mkdir -p "$STAGE/openai/skills" "$STAGE/openai/assets"
+cp "$ROOT/plugin.json" "$STAGE/openai/"
+cp "$ROOT/LICENSE" "$ROOT/README.md" "$STAGE/openai/"
+cp "$ROOT/.claude-plugin/icon.png" "$STAGE/openai/assets/icon.png"
+copy_skill "$STAGE/openai/skills/second-read"
+(cd "$STAGE/openai" && zip -qrX "$DIST/second-read-openai.zip" .)
+
 copy_skill "$STAGE/plugin"
 mkdir -p "$STAGE/plugin/.claude-plugin"
 cp "$ROOT/.claude-plugin/plugin.json" "$ROOT/.claude-plugin/icon.png" "$STAGE/plugin/.claude-plugin/"

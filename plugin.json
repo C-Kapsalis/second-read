@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "second-read",
+  "version": "0.3.1",
+  "description": "A reader-first editing skill that proposes source-anchored improvements and assembles the version you approve.",
+  "author": {
+    "name": "Christoforos Kapsalis",
+    "url": "https://c-kapsalis.github.io/"
+  },
+  "homepage": "https://github.com/C-Kapsalis/second-read",
+  "repository": "https://github.com/C-Kapsalis/second-read",
+  "license": "MIT",
+  "keywords": ["editing", "proofreading", "writing", "documentation", "copywriting"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Second Read",
+        "shortDescription": "Reader-first editing for your drafts",
+        "longDescription": "Edit a draft before publishing it. Second Read follows the document in the order a real reader encounters it, proposes small source-anchored edits, asks targeted questions where meaning could diverge, and assembles the revision you approve. It preserves your voice and invents no facts.",
+        "developerName": "Christoforos Kapsalis",
+        "category": "Productivity",
+        "capabilities": ["Instructions", "Writing and editing"],
+        "websiteURL": "https://github.com/C-Kapsalis/second-read",
+        "supportURL": "https://github.com/C-Kapsalis/second-read/issues",
+        "defaultPrompt": [
+          "Give this a second read before I publish it.",
+          "Edit this for a first-time reader while keeping my voice.",
+          "Check this draft for unsupported claims and confusing passages."
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

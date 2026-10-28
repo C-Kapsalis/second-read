@@ -1,3 +1,10 @@
+# Second Read 0.3.1 — portable plugin package
+
+Adds a skills-only portable plugin package with listing metadata and icon for
+ChatGPT/Codex directory review. Adds packaging and publishing instructions for
+the standalone skill, Claude plugin and portable package. Existing editing
+behavior is unchanged.
+
 # Second Read 0.3.0 — editorial architecture and context update
 
 One skill, same optional offline editor, no forced output or UI change.
