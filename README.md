@@ -133,6 +133,9 @@ listing appears only after the platform review and publication steps.
 
 ### OpenCode, OpenClaw, Codex, Gemini CLI, Cursor, Copilot, Goose, Cline, Windsurf and other agents
 
+For the published ClawHub listing, OpenClaw can install the skill with
+`openclaw skills install @c-kapsalis/second-read` once the listing is public.
+
 Second Read follows the open [Agent Skills](https://agentskills.io) format,
 so one command installs it into the agents you choose (needs Node.js):
 
