@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://github.com/C-Kapsalis/second-read/stargazers"><img src="https://img.shields.io/github/stars/C-Kapsalis/second-read?style=flat-square&label=Stars" alt="GitHub stars"></a>
   <a href="https://github.com/C-Kapsalis"><img src="https://img.shields.io/github/followers/C-Kapsalis?style=flat-square&label=Follow%20C-Kapsalis" alt="Follow C-Kapsalis on GitHub"></a>
+  <a href="https://skills.sh/C-Kapsalis/second-read"><img src="https://skills.sh/b/C-Kapsalis/second-read" alt="skills.sh installs"></a>
 </p>
 
 Second Read is an agent skill for editing a draft before you publish it. Give
