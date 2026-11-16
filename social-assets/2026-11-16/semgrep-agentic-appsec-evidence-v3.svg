@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Semgrep Agentic AppSec: two separate company-reported claims</title>
+<desc id="d">Mandoline is associated with an approximately 65 percent average token-cost reduction in security workflows. Context Layer, which is in private beta, is associated by Semgrep with agents surfacing two to seven times more real vulnerabilities. Semgrep exposes platform tools through MCP and supports importing existing findings into OpenAI Daybreak without rescanning. Claims are company-reported, not independently evaluated here.</desc>
+<rect width="1200" height="675" fill="#F5F7F8"/>
+<text x="64" y="62" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#52616B">SEMGREP · 12 NOV 2026</text>
+<text x="64" y="120" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#182B38">Two components. Two separate claims.</text>
+<rect x="64" y="170" width="500" height="280" rx="20" fill="#FFFFFF" stroke="#B7C7D1" stroke-width="2"/>
+<text x="100" y="220" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#245A78">MANDOLINE</text>
+<text x="100" y="267" font-family="Arial,sans-serif" font-size="21" fill="#52616B">Code-flow facts for security agents</text>
+<text x="100" y="355" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#245A78">~65%</text>
+<text x="100" y="395" font-family="Arial,sans-serif" font-size="21" fill="#182B38">average token-cost reduction</text>
+<text x="100" y="426" font-family="Arial,sans-serif" font-size="16" fill="#667780">Semgrep-reported result in Agentic Workflows</text>
+<rect x="604" y="170" width="532" height="280" rx="20" fill="#FFFFFF" stroke="#C8B6A2" stroke-width="2"/>
+<text x="640" y="220" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#8B5D2E">CONTEXT LAYER</text>
+<rect x="936" y="190" width="160" height="34" rx="17" fill="#F8EBDD"/>
+<text x="1016" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#8B5D2E">PRIVATE BETA</text>
+<text x="640" y="267" font-family="Arial,sans-serif" font-size="21" fill="#52616B">Persistent codebase and organization context</text>
+<text x="640" y="355" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#8B5D2E">2×–7×</text>
+<text x="640" y="395" font-family="Arial,sans-serif" font-size="21" fill="#182B38">more real vulnerabilities surfaced</text>
+<text x="640" y="426" font-family="Arial,sans-serif" font-size="16" fill="#667780">Semgrep-reported comparison with agents without it</text>
+<rect x="64" y="480" width="1072" height="86" rx="16" fill="#E8EEF2"/>
+<text x="96" y="518" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#182B38">MCP exposes the platform to compatible agents</text>
+<text x="96" y="548" font-family="Arial,sans-serif" font-size="18" fill="#52616B">Existing findings can be imported into OpenAI Daybreak without rescanning.</text>
+<text x="64" y="620" font-family="Arial,sans-serif" font-size="17" fill="#667780">Company-reported results · no independent evaluation in this review</text>
+</svg>
