@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Qwen4-Max documented capabilities and evidence boundary</title>
+<desc id="desc">Alibaba Cloud Model Studio documentation lists text, image and video input, web search, function and parallel tool calling, structured output and OpenAI and Anthropic API compatibility. These are vendor specifications, not independent performance or safety evaluations.</desc>
+<rect width="1200" height="675" fill="#F4F1E9"/>
+<rect x="54" y="44" width="1092" height="587" rx="26" fill="#FBFAF6" stroke="#D9D3C8" stroke-width="2"/>
+<text x="92" y="92" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2.4" fill="#3E7778">MODEL RELEASE · 15–16 NOV 2026</text>
+<text x="92" y="151" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" fill="#182B38">Qwen4-Max: what the docs specify</text>
+<rect x="92" y="202" width="490" height="326" rx="18" fill="#E8F0ED" stroke="#78A49B" stroke-width="2"/>
+<text x="124" y="246" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="1.4" fill="#28615D">MODEL STUDIO DOCUMENTS</text>
+<text x="124" y="296" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#182B38">Input</text>
+<text x="124" y="330" font-family="Inter,Arial,sans-serif" font-size="20" fill="#344954">Text · image · video</text>
+<text x="124" y="376" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#182B38">Tools</text>
+<text x="124" y="410" font-family="Inter,Arial,sans-serif" font-size="20" fill="#344954">Web search · function calls</text>
+<text x="124" y="439" font-family="Inter,Arial,sans-serif" font-size="20" fill="#344954">Parallel tool calling</text>
+<text x="124" y="485" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#182B38">Output</text>
+<text x="124" y="516" font-family="Inter,Arial,sans-serif" font-size="20" fill="#344954">Structured JSON · API compatibility</text>
+<rect x="618" y="202" width="490" height="326" rx="18" fill="#F1E8E4" stroke="#C98A77" stroke-width="2"/>
+<text x="650" y="246" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="1.1" fill="#9A4E3E">NOT ESTABLISHED BY THE RELEASE</text>
+<text x="650" y="300" font-family="Inter,Arial,sans-serif" font-size="22" fill="#263B45">Independent comparative benchmarks</text>
+<text x="650" y="350" font-family="Inter,Arial,sans-serif" font-size="22" fill="#263B45">External safety evaluation</text>
+<text x="650" y="400" font-family="Inter,Arial,sans-serif" font-size="22" fill="#263B45">Long-horizon agent reliability</text>
+<text x="650" y="450" font-family="Inter,Arial,sans-serif" font-size="22" fill="#263B45">Real-workload cost and latency</text>
+<rect x="92" y="552" width="1016" height="46" rx="14" fill="#182B38"/>
+<text x="600" y="583" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="750" fill="#FFFFFF">A capability list is a specification, not an independent evaluation.</text>
+</svg>
