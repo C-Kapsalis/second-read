@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">AlphaProof Code formal verification scope</title>
+<desc id="desc">A human-defined specification is checked against unmodified libsignal crates compiled into an AArch64 command-line harness. AI agents search for proofs, which are checked by Lean. The result depends on contracts for cryptographic primitives and covers selected operations, not the complete Signal apps.</desc>
+<rect width="1200" height="675" fill="#F4F1E9"/>
+<rect x="54" y="44" width="1092" height="587" rx="26" fill="#FBFAF6" stroke="#D9D3C8" stroke-width="2"/>
+<text x="92" y="92" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2.4" fill="#3E7778">FORMAL VERIFICATION · 10 NOV 2026</text>
+<text x="92" y="151" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" fill="#182B38">The proof has a boundary</text>
+<text x="92" y="190" font-family="Inter,Arial,sans-serif" font-size="22" fill="#52616A">AlphaProof Code checked stated properties of a defined execution model.</text>
+<g>
+<rect x="92" y="244" width="190" height="130" rx="16" fill="#E8F0ED" stroke="#78A49B" stroke-width="2"/>
+<text x="187" y="286" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="750" fill="#182B38">Human</text>
+<text x="187" y="318" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#344954">specification</text>
+<path d="M292 309 H324" stroke="#7C8A8E" stroke-width="3"/><path d="M314 299 L326 309 L314 319" stroke="#7C8A8E" stroke-width="3" fill="none"/>
+<rect x="334" y="244" width="190" height="130" rx="16" fill="#E8F0ED" stroke="#78A49B" stroke-width="2"/>
+<text x="429" y="286" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="750" fill="#182B38">Unmodified</text>
+<text x="429" y="318" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#344954">libsignal crates</text>
+<path d="M534 309 H566" stroke="#7C8A8E" stroke-width="3"/><path d="M556 299 L568 309 L556 319" stroke="#7C8A8E" stroke-width="3" fill="none"/>
+<rect x="576" y="244" width="190" height="130" rx="16" fill="#E9EEF4" stroke="#8BA2BC" stroke-width="2"/>
+<text x="671" y="286" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="750" fill="#182B38">AArch64</text>
+<text x="671" y="318" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#344954">CLI harness</text>
+<path d="M776 309 H808" stroke="#7C8A8E" stroke-width="3"/><path d="M798 299 L810 309 L798 319" stroke="#7C8A8E" stroke-width="3" fill="none"/>
+<rect x="818" y="244" width="190" height="130" rx="16" fill="#F6ECDD" stroke="#D5A35C" stroke-width="2"/>
+<text x="913" y="286" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="750" fill="#182B38">AI proof</text>
+<text x="913" y="318" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" fill="#344954">search</text>
+<path d="M1018 309 H1050" stroke="#7C8A8E" stroke-width="3"/><path d="M1040 299 L1052 309 L1040 319" stroke="#7C8A8E" stroke-width="3" fill="none"/>
+<rect x="1060" y="244" width="54" height="130" rx="16" fill="#182B38"/>
+<text x="1087" y="296" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Lean</text>
+<text x="1087" y="321" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#DDE5E7">checks</text>
+<rect x="92" y="414" width="1016" height="154" rx="18" fill="#F1E8E4" stroke="#C98A77" stroke-width="2"/>
+<text x="124" y="456" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="1" fill="#9A4E3E">ASSUMPTIONS AND SCOPE</text>
+<text x="124" y="496" font-family="Inter,Arial,sans-serif" font-size="21" fill="#263B45">Cryptographic primitives are supplied as contracts.</text>
+<text x="124" y="529" font-family="Inter,Arial,sans-serif" font-size="21" fill="#263B45">The model covers selected two-party operations and stated properties.</text>
+<text x="92" y="602" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" fill="#182B38">Not a proof of the complete Signal apps or every protocol behavior.</text>
+</svg>
