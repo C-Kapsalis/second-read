@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">One request is not a conversation</title><desc id="d">ToolTurns reports 69.6 percent best request-level success and 39.8 percent full three-request dialogue completion. The paper uses cached or simulated tool responses rather than live provider calls.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700" fill="#0f172a">One request is not a conversation</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">ToolTurns · arXiv:2611.14925v1 · 11 November 2026</text>
+<text x="64" y="196" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#334155">Best task success across nine models</text>
+<text x="64" y="270" font-family="Inter,Arial,sans-serif" font-size="20" fill="#334155">Individual request</text>
+<rect x="300" y="235" width="700" height="54" rx="12" fill="#e2e8f0"/>
+<rect x="300" y="235" width="487" height="54" rx="12" fill="#2563eb"/>
+<text x="810" y="273" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700" fill="#1e3a8a">69.6%</text>
+<text x="64" y="370" font-family="Inter,Arial,sans-serif" font-size="20" fill="#334155">All 3 requests in dialogue</text>
+<rect x="300" y="335" width="700" height="54" rx="12" fill="#e2e8f0"/>
+<rect x="300" y="335" width="279" height="54" rx="12" fill="#0f766e"/>
+<text x="600" y="373" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700" fill="#065f46">39.8%</text>
+<rect x="64" y="454" width="1072" height="108" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="94" y="496" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#9a3412">Important boundary</text>
+<text x="94" y="534" font-family="Inter,Arial,sans-serif" font-size="19" fill="#7c2d12">Tool responses came from cache or LLM simulation, not live provider calls.</text>
+<text x="64" y="610" font-family="Inter,Arial,sans-serif" font-size="17" fill="#64748b">Preprint results under this evaluation protocol; not a universal estimate of deployed-agent success.</text>
+</svg>
