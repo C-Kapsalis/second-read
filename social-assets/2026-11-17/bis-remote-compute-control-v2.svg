@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Remote compute enters chip export controls</title><desc id="d">BIS issued an interim final rule on 16 November 2026, scheduled for Federal Register publication on 19 November. It would require licences for advanced chip exports to overseas data centres supplying more than 12 million aggregate TPP to D:5 or Macau-headquartered firms, with a 90-day transition for existing covered operators.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">Remote compute enters chip export controls</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">BIS interim final rule · scheduled publication 19 November 2026</text>
+<rect x="64" y="178" width="330" height="182" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<text x="94" y="224" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#1e40af">Advanced chips</text>
+<text x="94" y="268" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">US-origin items</text>
+<text x="94" y="302" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Export / reexport / transfer</text>
+<path d="M394 268 H438" stroke="#64748b" stroke-width="4"/><path d="M428 257 L440 268 L428 279" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="442" y="178" width="330" height="182" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="472" y="224" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#075985">Overseas data centre</text>
+<text x="472" y="268" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">More than 12 million</text>
+<text x="472" y="302" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">aggregate TPP capacity</text>
+<path d="M772 268 H816" stroke="#64748b" stroke-width="4"/><path d="M806 257 L818 268 L806 279" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="820" y="178" width="316" height="182" rx="18" fill="#fff1f2" stroke="#e11d48" stroke-width="3"/>
+<text x="850" y="224" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#9f1239">Covered customer</text>
+<text x="850" y="268" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">D:5 / Macau HQ</text>
+<text x="850" y="302" font-family="Inter,Arial,sans-serif" font-size="18" fill="#0f172a">or ultimate parent</text>
+<rect x="64" y="412" width="500" height="130" rx="18" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="94" y="455" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#065f46">Due diligence</text>
+<text x="94" y="495" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Verify direct and indirect ownership, control</text>
+<text x="94" y="524" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">and remote end users.</text>
+<rect x="600" y="412" width="536" height="130" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="630" y="455" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#9a3412">Existing covered operators</text>
+<text x="630" y="495" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">90 days from the rule's effective date</text>
+<text x="630" y="524" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">to obtain a licence to continue service.</text>
+<rect x="64" y="578" width="1072" height="42" rx="10" fill="#0f172a"/>
+<text x="84" y="606" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff">Not yet effective on 17 November · scheduled for publication 19 November · five additional destination controls</text>
+</svg>
