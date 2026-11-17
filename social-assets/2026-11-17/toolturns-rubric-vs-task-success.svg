@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">ToolTurns: quality rubric and task success rankings diverge</title>
+<desc id="desc">The ToolTurns preprint reports that GPT-5.4-mini leads the weighted dialogue-quality rubric at 0.817, while Opus 4.8 ranks second at 0.809. On task success, Opus 4.8 ranks first at 69.6 percent and GPT-5.4-mini ranks eighth at 56.3 percent. The rank correlation is 0.23. Only 39.8 percent of Opus 4.8's three-request dialogues pass all three tasks. Tool responses were cached or LLM-simulated rather than live API calls.</desc>
+<rect width="1200" height="675" fill="#f7f8fa"/>
+<rect x="54" y="46" width="1092" height="582" rx="28" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+<text x="92" y="111" fill="#18243a" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">ToolTurns: quality ≠ task success</text>
+<text x="92" y="148" fill="#536174" font-family="Inter,Arial,sans-serif" font-size="18">The model that scores best on a quality rubric is not the one that solves the most tasks.</text>
+<rect x="92" y="190" width="470" height="54" rx="12" fill="#eaf0f8"/>
+<rect x="638" y="190" width="470" height="54" rx="12" fill="#eaf0f8"/>
+<text x="118" y="225" fill="#26364d" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.2">WEIGHTED DIALOGUE-QUALITY RUBRIC</text>
+<text x="664" y="225" fill="#26364d" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.2">TASK SUCCESS</text>
+<rect x="92" y="264" width="470" height="84" rx="14" fill="#e5efff" stroke="#6e91c8" stroke-width="2"/>
+<text x="118" y="297" fill="#243653" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">1 · GPT-5.4-mini</text>
+<text x="118" y="329" fill="#334b70" font-family="Inter,Arial,sans-serif" font-size="22">0.817 · highest weighted score</text>
+<rect x="92" y="364" width="470" height="84" rx="14" fill="#f0f3f7" stroke="#b9c3d1" stroke-width="2"/>
+<text x="118" y="397" fill="#243653" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">2 · Opus 4.8</text>
+<text x="118" y="429" fill="#536174" font-family="Inter,Arial,sans-serif" font-size="22">0.809 · second-highest</text>
+<rect x="638" y="264" width="470" height="84" rx="14" fill="#e5f6ec" stroke="#5a9a76" stroke-width="2"/>
+<text x="664" y="297" fill="#214c37" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">1 · Opus 4.8</text>
+<text x="664" y="329" fill="#2e6849" font-family="Inter,Arial,sans-serif" font-size="22">69.6% · individual subtasks</text>
+<rect x="638" y="364" width="470" height="84" rx="14" fill="#fff5dc" stroke="#c49a43" stroke-width="2"/>
+<text x="664" y="397" fill="#6b4c16" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">8 · GPT-5.4-mini</text>
+<text x="664" y="429" fill="#806026" font-family="Inter,Arial,sans-serif" font-size="22">56.3% · individual subtasks</text>
+<path d="M580 304 C602 304 608 304 630 304" fill="none" stroke="#7a8798" stroke-width="3" stroke-dasharray="7 7"/>
+<path d="M620 294 L632 304 L620 314" fill="none" stroke="#7a8798" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="281" fill="#536174" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">ρ = 0.23</text>
+<rect x="92" y="478" width="1016" height="82" rx="16" fill="#18243a"/>
+<text x="120" y="513" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">FULL-DIALOGUE CHECK</text>
+<text x="120" y="543" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="21">Only 39.8% of Opus 4.8's three-request dialogues passed all three tasks.</text>
+<text x="92" y="594" fill="#69778a" font-family="Inter,Arial,sans-serif" font-size="15">ToolTurns preprint · 2,620 problems · cached / LLM-simulated tool responses, not live API calls</text>
+</svg>
