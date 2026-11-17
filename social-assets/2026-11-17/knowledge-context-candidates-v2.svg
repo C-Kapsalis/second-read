@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Context discovery is not context ingestion</title><desc id="d">The helper returns bounded candidate paths and limited metadata, not full note bodies. Selected notes still require inspection.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">Context discovery is not context ingestion</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">Second Read optional knowledge-context helper</text>
+<rect x="64" y="194" width="225" height="180" rx="18" fill="#e0e7ff" stroke="#4f46e5" stroke-width="3"/>
+<text x="92" y="239" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#312e81">Target note</text>
+<text x="92" y="284" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">Draft or document</text>
+<text x="92" y="320" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">inside an allowed root</text>
+<path d="M289 284 H348" stroke="#64748b" stroke-width="4"/><path d="M338 273 L350 284 L338 295" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="352" y="194" width="245" height="180" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<text x="380" y="239" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#1e40af">Bounded scan</text>
+<text x="380" y="284" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">Links, metadata,</text>
+<text x="380" y="318" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">path relationships</text>
+<path d="M597 284 H656" stroke="#64748b" stroke-width="4"/><path d="M646 273 L658 284 L646 295" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="660" y="194" width="245" height="180" rx="18" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+<text x="688" y="239" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#065f46">Candidates</text>
+<text x="688" y="284" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">Paths + whitelisted</text>
+<text x="688" y="318" font-family="Inter,Arial,sans-serif" font-size="19" fill="#1e293b">metadata only</text>
+<path d="M905 284 H964" stroke="#64748b" stroke-width="4"/><path d="M954 273 L966 284 L954 295" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="968" y="194" width="168" height="180" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+<text x="992" y="239" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#9a3412">Read</text>
+<text x="992" y="284" font-family="Inter,Arial,sans-serif" font-size="18" fill="#1e293b">Selected source</text>
+<text x="992" y="318" font-family="Inter,Arial,sans-serif" font-size="18" fill="#1e293b">and verify status</text>
+<rect x="64" y="432" width="1072" height="115" rx="18" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+<text x="94" y="477" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#9f1239">Deliberate boundaries</text>
+<text x="94" y="516" font-family="Inter,Arial,sans-serif" font-size="20" fill="#4c0519">No full note bodies · hidden folders skipped · symlinks outside root rejected · read-only</text>
+<text x="64" y="608" font-family="Inter,Arial,sans-serif" font-size="18" fill="#64748b">A candidate path is a navigation hint, not proof that a note is current or approved.</text>
+</svg>
