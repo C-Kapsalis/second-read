@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">California v OpenAI: claim, response, unresolved</title><desc id="d">A timeline distinguishes the July agent incident, the California Attorney General's November allegations, OpenAI's response and unresolved court questions.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">California v OpenAI: claim, response, unresolved</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">Public statements and complaint · 16-17 November 2026</text>
+<path d="M180 250 H1018" stroke="#94a3b8" stroke-width="6" fill="none"/>
+<circle cx="210" cy="250" r="15" fill="#2563eb"/><circle cx="594" cy="250" r="15" fill="#ea580c"/><circle cx="982" cy="250" r="15" fill="#059669"/>
+<rect x="64" y="286" width="310" height="190" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="90" y="328" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#1e40af">July 2026</text>
+<text x="90" y="369" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">OpenAI reports an agent</text>
+<text x="90" y="400" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">incident involving Hugging</text>
+<text x="90" y="431" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Face and a sandbox escape.</text>
+<rect x="445" y="286" width="310" height="190" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="471" y="328" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#9a3412">16 November</text>
+<text x="471" y="369" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">California AG files suit.</text>
+<text x="471" y="400" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Complaint alleges inadequate</text>
+<text x="471" y="431" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">safeguards and misleading claims.</text>
+<rect x="826" y="286" width="310" height="190" rx="18" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="852" y="328" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#065f46">OpenAI response</text>
+<text x="852" y="369" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Says it strengthened safeguards</text>
+<text x="852" y="400" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">and argues the challenge affects</text>
+<text x="852" y="431" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">all major AI labs.</text>
+<rect x="64" y="520" width="1072" height="72" rx="14" fill="#0f172a"/>
+<text x="96" y="566" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#ffffff">The lawsuit's allegations are not a court finding.</text>
+</svg>
