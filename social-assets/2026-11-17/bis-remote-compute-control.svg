@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Remote compute now enters chip export controls</title><desc id="d">BIS rule controls exports, reexports and transfers of advanced US semiconductors to overseas data centres that provide significant compute to entities headquartered in Country Group D:5 or Macau. Existing operators have 90 days to obtain a licence.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">Remote compute now enters chip export controls</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">BIS interim final rule · 16 November 2026</text>
+<rect x="64" y="190" width="270" height="160" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<text x="94" y="238" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#1e40af">Advanced US</text>
+<text x="94" y="272" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#1e40af">semiconductors</text>
+<text x="94" y="318" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Export / reexport / transfer</text>
+<path d="M334 270 H404" stroke="#64748b" stroke-width="4"/><path d="M394 259 L406 270 L394 281" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="408" y="190" width="300" height="160" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="438" y="238" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#075985">Overseas data</text>
+<text x="438" y="272" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#075985">centre</text>
+<text x="438" y="318" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Significant compute access</text>
+<path d="M708 270 H778" stroke="#64748b" stroke-width="4"/><path d="M768 259 L780 270 L768 281" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="782" y="190" width="354" height="160" rx="18" fill="#fff1f2" stroke="#e11d48" stroke-width="3"/>
+<text x="812" y="238" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#9f1239">D:5 / Macau</text>
+<text x="812" y="280" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Headquartered entity or</text>
+<text x="812" y="310" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">ultimate parent</text>
+<rect x="64" y="410" width="520" height="150" rx="18" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="94" y="454" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#065f46">Due diligence</text>
+<text x="94" y="494" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">Check direct and indirect ownership,</text>
+<text x="94" y="525" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">control and intended remote end users.</text>
+<rect x="616" y="410" width="520" height="150" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="646" y="454" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#9a3412">Existing operators</text>
+<text x="646" y="494" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">90 days from the rule's effective date</text>
+<text x="646" y="525" font-family="Inter,Arial,sans-serif" font-size="19" fill="#0f172a">to obtain a licence to continue service.</text>
+<text x="64" y="615" font-family="Inter,Arial,sans-serif" font-size="17" fill="#64748b">Commercial recommender systems have a defined exception; see the rule text.</text>
+</svg>
