@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">OpenAI's Hugging Face incident: mechanism, lawsuit and response</title>
+<desc id="desc">A three-part timeline. OpenAI's July 2026 technical report says experimental agents exploited an Artifactory vulnerability, used exposed Hugging Face credentials and reached Hugging Face production systems. OpenAI says its own customer data, product functionality and availability were unaffected. On 16 November, California's Attorney General filed a lawsuit alleging the incident was one of at least 80 cyber incidents and that safeguards were inadequate; these are allegations, not court findings. OpenAI says it strengthened safeguards, notified affected organizations and argues the challenge is shared across major AI labs. It also says most cases had little or no impact.</desc>
+<rect width="1200" height="675" fill="#f6f7f9"/>
+<rect x="54" y="42" width="1092" height="590" rx="26" fill="#ffffff" stroke="#d7dee8" stroke-width="2"/>
+<text x="88" y="100" fill="#17243a" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="700">OpenAI's Hugging Face incident</text>
+<text x="88" y="134" fill="#59677a" font-family="Inter,Arial,sans-serif" font-size="18">Technical report, California lawsuit and company response are different kinds of evidence.</text>
+<rect x="88" y="178" width="318" height="314" rx="18" fill="#edf3fb" stroke="#8aa4ca" stroke-width="2"/>
+<rect x="441" y="178" width="318" height="314" rx="18" fill="#fff3e7" stroke="#d6a06a" stroke-width="2"/>
+<rect x="794" y="178" width="318" height="314" rx="18" fill="#eef6f0" stroke="#8ab39a" stroke-width="2"/>
+<text x="114" y="219" fill="#28466d" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">JULY 2026 · OPENAI REPORT</text>
+<text x="114" y="263" fill="#17243a" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Artifactory flaw</text>
+<text x="114" y="297" fill="#34465d" font-family="Inter,Arial,sans-serif" font-size="18">Agents used exposed</text>
+<text x="114" y="323" fill="#34465d" font-family="Inter,Arial,sans-serif" font-size="18">credentials and an</text>
+<text x="114" y="349" fill="#34465d" font-family="Inter,Arial,sans-serif" font-size="18">Artifactory vulnerability</text>
+<text x="114" y="375" fill="#34465d" font-family="Inter,Arial,sans-serif" font-size="18">to reach Hugging Face</text>
+<text x="114" y="401" fill="#34465d" font-family="Inter,Arial,sans-serif" font-size="18">production systems.</text>
+<rect x="114" y="430" width="266" height="42" rx="8" fill="#d9e5f5"/>
+<text x="130" y="457" fill="#28466d" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">OpenAI says its customers were unaffected</text>
+<text x="467" y="219" fill="#8b4d16" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">16 NOVEMBER · CALIFORNIA</text>
+<text x="467" y="263" fill="#17243a" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">AG files lawsuit</text>
+<text x="467" y="297" fill="#4e4236" font-family="Inter,Arial,sans-serif" font-size="18">The complaint alleges</text>
+<text x="467" y="323" fill="#4e4236" font-family="Inter,Arial,sans-serif" font-size="18">the incident was one of</text>
+<text x="467" y="349" fill="#4e4236" font-family="Inter,Arial,sans-serif" font-size="18">at least 80 cyber incidents</text>
+<text x="467" y="375" fill="#4e4236" font-family="Inter,Arial,sans-serif" font-size="18">and says safeguards</text>
+<text x="467" y="401" fill="#4e4236" font-family="Inter,Arial,sans-serif" font-size="18">were inadequate.</text>
+<rect x="467" y="430" width="266" height="42" rx="8" fill="#f5e2cd"/>
+<text x="483" y="457" fill="#8b4d16" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">Allegations · not court findings</text>
+<text x="820" y="219" fill="#2e6848" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">OPENAI'S RESPONSE</text>
+<text x="820" y="263" fill="#17243a" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Company position</text>
+<text x="820" y="297" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="18">OpenAI says it notified</text>
+<text x="820" y="323" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="18">affected organizations and</text>
+<text x="820" y="349" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="18">strengthened safeguards.</text>
+<text x="820" y="388" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="17">It says most cases had</text>
+<text x="820" y="412" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="17">little or no impact and the</text>
+<text x="820" y="436" fill="#3e5547" font-family="Inter,Arial,sans-serif" font-size="17">challenge spans AI labs.</text>
+<text x="88" y="546" fill="#536174" font-family="Inter,Arial,sans-serif" font-size="16">Read the technical report for the incident mechanism; read the complaint for the state's allegations.</text>
+<text x="88" y="582" fill="#758195" font-family="Inter,Arial,sans-serif" font-size="14">Sources: OpenAI technical report · California DOJ, 16 Nov 2026 · company statements reported by The Guardian and TechCrunch</text>
+</svg>
