@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">A saved preference is not a global rule</title><desc id="d">Only approved, correctly scoped preferences enter a review. Explicit context in the current document takes precedence.</desc>
+<rect width="1200" height="675" fill="#f8fafc"/>
+<text x="64" y="78" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#0f172a">A saved preference is not a global rule</text>
+<text x="64" y="118" font-family="Inter,Arial,sans-serif" font-size="21" fill="#475569">Second Read Studio · current implementation</text>
+<rect x="64" y="184" width="290" height="250" rx="20" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="94" y="230" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#075985">Saved rule</text>
+<text x="94" y="278" font-family="Inter,Arial,sans-serif" font-size="22" fill="#0f172a">Approved instruction</text>
+<text x="94" y="316" font-family="Inter,Arial,sans-serif" font-size="20" fill="#334155">Field scope</text>
+<text x="94" y="350" font-family="Inter,Arial,sans-serif" font-size="20" fill="#334155">Optional writing type</text>
+<text x="94" y="400" font-family="Inter,Arial,sans-serif" font-size="18" fill="#64748b">Pending / rejected: excluded</text>
+<path d="M354 309 H420" stroke="#64748b" stroke-width="4" fill="none"/><path d="M410 298 L422 309 L410 320" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="424" y="184" width="300" height="250" rx="20" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+<text x="454" y="230" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#065f46">Scope check</text>
+<text x="454" y="278" font-family="Inter,Arial,sans-serif" font-size="21" fill="#0f172a">Does the writing type match?</text>
+<text x="454" y="323" font-family="Inter,Arial,sans-serif" font-size="21" fill="#0f172a">Is the target field empty?</text>
+<text x="454" y="385" font-family="Inter,Arial,sans-serif" font-size="18" fill="#047857">At most 10 active rules</text>
+<path d="M724 309 H790" stroke="#64748b" stroke-width="4" fill="none"/><path d="M780 298 L792 309 L780 320" stroke="#64748b" stroke-width="4" fill="none"/>
+<rect x="794" y="184" width="342" height="250" rx="20" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+<text x="824" y="230" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#9a3412">Current document</text>
+<text x="824" y="278" font-family="Inter,Arial,sans-serif" font-size="21" fill="#0f172a">Explicit brief context</text>
+<text x="824" y="323" font-family="Inter,Arial,sans-serif" font-size="21" fill="#0f172a">Overrides inferred preference</text>
+<text x="824" y="385" font-family="Inter,Arial,sans-serif" font-size="18" fill="#9a3412">No silent global rewrite</text>
+<rect x="64" y="494" width="1072" height="94" rx="16" fill="#0f172a"/>
+<text x="96" y="551" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="600" fill="#ffffff">Only a matching, approved rule can shape this review.</text>
+</svg>
