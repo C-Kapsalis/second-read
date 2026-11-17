@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Permission is not the same as purpose</title><desc id="d">Conceptual matrix separating tool permission from whether an action fits the deployed agent's role and purpose.</desc>
+<rect width="1200" height="675" fill="#F7F8FA"/><rect x="58" y="54" width="1084" height="567" rx="26" fill="#FFFFFF" stroke="#D9E1EA" stroke-width="2"/>
+<text x="92" y="111" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2.2" fill="#55708A">RESEARCH FRAMEWORK · 12 NOV 2026 PREPRINT</text>
+<text x="92" y="176" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="750" fill="#142B45">Permission is not purpose</text>
+<text x="92" y="218" font-family="Inter,Arial,sans-serif" font-size="23" fill="#50657A">A separate check for what an agent is deployed to do</text>
+<text x="520" y="270" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" fill="#52677B">WITHIN ASSIGNED PURPOSE</text>
+<text x="870" y="270" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" fill="#52677B">OUTSIDE ASSIGNED PURPOSE</text>
+<text x="112" y="354" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" fill="#52677B">TOOL PERMISSION</text>
+<text x="112" y="386" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52677B">GRANTED</text>
+<rect x="380" y="300" width="280" height="112" rx="16" fill="#E8F3EC" stroke="#4F8A69" stroke-width="2"/>
+<text x="520" y="348" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#205A3A">Permitted</text>
+<text x="520" y="380" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#386A4C">and in scope</text>
+<rect x="730" y="300" width="280" height="112" rx="16" fill="#FFF4D6" stroke="#C28B2C" stroke-width="2"/>
+<text x="870" y="348" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#75541A">Permitted</text>
+<text x="870" y="380" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#75541A">but out of scope</text>
+<text x="112" y="490" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" fill="#52677B">TOOL PERMISSION</text>
+<text x="112" y="522" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52677B">NOT GRANTED</text>
+<rect x="380" y="446" width="280" height="90" rx="16" fill="#FDECEC" stroke="#B45D5D" stroke-width="2"/>
+<text x="520" y="493" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#7A3333">Blocked</text>
+<rect x="730" y="446" width="280" height="90" rx="16" fill="#FDECEC" stroke="#B45D5D" stroke-width="2"/>
+<text x="870" y="493" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#7A3333">Blocked</text>
+<text x="92" y="584" font-family="Inter,Arial,sans-serif" font-size="17" fill="#6A7F92">Conceptual distinction from the paper; not a deployed enforcement product.</text>
+</svg>
