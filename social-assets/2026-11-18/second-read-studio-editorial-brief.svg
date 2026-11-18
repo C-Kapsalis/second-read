@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#0b1220"/>
+<rect x="32" y="32" width="1136" height="611" rx="28" fill="#101b2d" stroke="#2b3d55" stroke-width="2"/>
+<text x="76" y="100" fill="#f4f7fb" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="700">Review starts with the assignment</text>
+<text x="78" y="145" fill="#a9b9ce" font-family="Inter,Arial,sans-serif" font-size="23">The right edit depends on who the piece serves and what it must do.</text>
+<g font-family="Inter,Arial,sans-serif">
+ <rect x="76" y="205" width="360" height="300" rx="20" fill="#16243a" stroke="#8eabff" stroke-width="3"/>
+ <text x="110" y="252" fill="#8eabff" font-size="24" font-weight="700">EDITORIAL BRIEF</text>
+ <text x="110" y="315" fill="#f4f7fb" font-size="28" font-weight="700">Audience</text>
+ <text x="110" y="357" fill="#f4f7fb" font-size="28" font-weight="700">Purpose</text>
+ <text x="110" y="399" fill="#f4f7fb" font-size="28" font-weight="700">Writing type</text>
+ <text x="110" y="441" fill="#f4f7fb" font-size="28" font-weight="700">Constraints</text>
+ <path d="M450 355 H510 l-18 -18 m18 18 l-18 18" fill="none" stroke="#69d6c4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="528" y="205" width="278" height="300" rx="20" fill="#16243a" stroke="#69d6c4" stroke-width="3"/>
+ <text x="558" y="252" fill="#69d6c4" font-size="24" font-weight="700">REVIEW</text>
+ <text x="558" y="316" fill="#f4f7fb" font-size="28" font-weight="700">Reader's task</text>
+ <text x="558" y="361" fill="#b9c7d8" font-size="21">Meaning · evidence</text>
+ <text x="558" y="397" fill="#b9c7d8" font-size="21">Structure · clarity</text>
+ <text x="558" y="433" fill="#b9c7d8" font-size="21">Voice · constraints</text>
+ <path d="M820 355 H872 l-18 -18 m18 18 l-18 18" fill="none" stroke="#69d6c4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="890" y="205" width="234" height="300" rx="20" fill="#16243a" stroke="#f3c46b" stroke-width="3"/>
+ <text x="920" y="252" fill="#f3c46b" font-size="24" font-weight="700">EXAMPLES</text>
+ <text x="920" y="315" fill="#f4f7fb" font-size="26" font-weight="700">Tutorial</text>
+ <text x="920" y="350" fill="#b9c7d8" font-size="19">Prerequisites</text>
+ <text x="920" y="381" fill="#b9c7d8" font-size="19">Sequence</text>
+ <text x="920" y="412" fill="#f4f7fb" font-size="26" font-weight="700">Landing page</text>
+ <text x="920" y="447" fill="#b9c7d8" font-size="19">Positioning · proof</text>
+</g>
+<line x1="76" y1="590" x2="1124" y2="590" stroke="#2b3d55" stroke-width="2"/>
+<text x="78" y="625" fill="#a9b9ce" font-family="Inter,Arial,sans-serif" font-size="19">A review without an assignment can improve sentences while missing the reader's job.</text>
+</svg>
