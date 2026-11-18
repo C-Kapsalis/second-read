@@ -18,6 +18,6 @@
 <rect x="66" y="447" width="1068" height="104" rx="16" fill="#24334a"/>
 <text x="94" y="483" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Account conditions</text>
 <text x="94" y="519" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="18">Personal Google Account · age 18+ · History on · no work/school accounts</text>
-<text x="68" y="585" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="17">Tasks can make mistakes; sensitive actions may require confirmation.</text>
-<text x="68" y="620" fill="#91a4bf" font-family="Inter,Arial,sans-serif" font-size="15">Source: Google Gemini Apps Help Center. Availability may change.</text>
+<text x="68" y="585" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="17">Advanced features start in the US; examples include business calls and Google Pay. Tasks can make mistakes or hand control back.</text>
+<text x="68" y="620" fill="#91a4bf" font-family="Inter,Arial,sans-serif" font-size="15">Source: Google blog + Gemini Apps Help Center. Availability may change.</text>
 </svg>
