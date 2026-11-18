@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Gemini Tasks availability</title>
+<desc id="desc">Google's 18 November 2026 availability information. The free rollout is in the United States, Japan, South Korea, Canada, Australia and India. Gemini Tasks is unavailable even to Pro and Ultra subscribers in the European Economic Area, United Kingdom, Switzerland and Nigeria. A personal Google Account and Keep activity are required; work and school accounts are excluded. Advanced calling and payments start in the United States. Google warns tasks may fail or hand control back.</desc>
+<rect width="1200" height="675" fill="#0b1220"/>
+<rect x="30" y="28" width="1140" height="619" rx="26" fill="#111c2e" stroke="#26354d" stroke-width="2"/>
+<text x="66" y="88" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="700">Gemini Tasks: availability isn't global</text>
+<text x="68" y="128" fill="#9fb0c8" font-family="Inter,Arial,sans-serif" font-size="20">Google launch and Help Center · checked 18 November 2026</text>
+<rect x="66" y="164" width="514" height="256" rx="20" fill="#172f2b" stroke="#34d399" stroke-width="2"/>
+<text x="98" y="207" fill="#6ee7b7" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">FREE ROLLOUT</text>
+<text x="98" y="267" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">United States</text>
+<text x="98" y="315" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="29">Japan · South Korea</text>
+<text x="98" y="360" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="29">Canada · Australia · India</text>
+<rect x="606" y="164" width="528" height="256" rx="20" fill="#39232b" stroke="#fb7185" stroke-width="2"/>
+<text x="638" y="207" fill="#fda4af" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="1">NOT AVAILABLE EVEN WITH PRO / ULTRA</text>
+<text x="638" y="267" fill="#fff1f2" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">European Economic Area</text>
+<text x="638" y="315" fill="#fff1f2" font-family="Inter,Arial,sans-serif" font-size="29">United Kingdom · Switzerland</text>
+<text x="638" y="360" fill="#fff1f2" font-family="Inter,Arial,sans-serif" font-size="29">Nigeria</text>
+<rect x="66" y="447" width="1068" height="104" rx="16" fill="#24334a"/>
+<text x="94" y="483" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Account conditions</text>
+<text x="94" y="519" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="18">Personal Google Account + Keep activity on; work and school accounts are excluded.</text>
+<text x="68" y="585" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="17">Advanced calls and payments start in the US. Google says tasks can fail or hand control back.</text>
+<text x="68" y="620" fill="#91a4bf" font-family="Inter,Arial,sans-serif" font-size="15">Source: Google Gemini Tasks launch and Help Center. Availability may change.</text>
+</svg>
