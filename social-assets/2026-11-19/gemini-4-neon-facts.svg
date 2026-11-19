@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Gemini 4 Neon · launch facts</title><desc id="desc">Google announced the model on 18 November 2026; API list prices below are from its launch post. Context: 1 million tokens; Input: $3 per million tokens; Output: $15 per million tokens; Cached input: $0.15 per million tokens Published pricing is one input. Benchmark rankings still need workload-specific evaluation.</desc>
+<rect width="1200" height="675" fill="#f5f3ed"/>
+<rect x="0" y="0" width="14" height="675" fill="#245a57"/>
+<text x="70" y="62" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2.5" fill="#9a6b2f">FIELD NOTE  /  19 NOV 2026</text>
+<text x="70" y="119" font-family="Inter,Arial,sans-serif" font-size="39" font-weight="750" fill="#1c2a33">Gemini 4 Neon · launch facts</text>
+<text x="70" y="157" font-family="Inter,Arial,sans-serif" font-size="19" fill="#52616a">Google announced the model on 18 November 2026; API list prices below are from its launch post.</text>
+<line x1="70" y1="184" x2="1130" y2="184" stroke="#d5dbd6" stroke-width="2"/>
+<rect x="70" y="226" width="248.5" height="246" rx="18" fill="#ffffff" stroke="#d9dfda" stroke-width="2"/>
+<rect x="70" y="226" width="8" height="246" rx="4" fill="#245a57"/>
+<text x="94" y="263" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#9a6b2f">01</text>
+<text x="94" y="304" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700" fill="#1c2a33">Context</text>
+<text x="94" y="350" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">1 million</text>
+<text x="94" y="379" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">tokens</text>
+<line x1="323.5" y1="348" x2="333.5" y2="348" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round"/>
+<path d="M 325.5 341 L 333.5 348 L 325.5 355" fill="none" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="340.5" y="226" width="248.5" height="246" rx="18" fill="#ffffff" stroke="#d9dfda" stroke-width="2"/>
+<rect x="340.5" y="226" width="8" height="246" rx="4" fill="#c18a3d"/>
+<text x="364.5" y="263" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#9a6b2f">02</text>
+<text x="364.5" y="304" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700" fill="#1c2a33">Input</text>
+<text x="364.5" y="350" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">$3 per million</text>
+<text x="364.5" y="379" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">tokens</text>
+<line x1="594" y1="348" x2="604" y2="348" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round"/>
+<path d="M 596 341 L 604 348 L 596 355" fill="none" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="611" y="226" width="248.5" height="246" rx="18" fill="#ffffff" stroke="#d9dfda" stroke-width="2"/>
+<rect x="611" y="226" width="8" height="246" rx="4" fill="#245a57"/>
+<text x="635" y="263" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#9a6b2f">03</text>
+<text x="635" y="304" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700" fill="#1c2a33">Output</text>
+<text x="635" y="350" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">$15 per million</text>
+<text x="635" y="379" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">tokens</text>
+<line x1="864.5" y1="348" x2="874.5" y2="348" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round"/>
+<path d="M 866.5 341 L 874.5 348 L 866.5 355" fill="none" stroke="#9aa7a2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="881.5" y="226" width="248.5" height="246" rx="18" fill="#ffffff" stroke="#d9dfda" stroke-width="2"/>
+<rect x="881.5" y="226" width="8" height="246" rx="4" fill="#c18a3d"/>
+<text x="905.5" y="263" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#9a6b2f">04</text>
+<text x="905.5" y="304" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700" fill="#1c2a33">Cached input</text>
+<text x="905.5" y="350" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">$0.15 per million</text>
+<text x="905.5" y="379" font-family="Inter,Arial,sans-serif" font-size="17" fill="#52616a">tokens</text>
+<rect x="70" y="523" width="1060" height="84" rx="16" fill="#e7ede8"/>
+<text x="96" y="555" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#245a57">THE PRACTICAL POINT</text>
+<text x="96" y="584" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#1c2a33">Published pricing is one input. Benchmark rankings still need workload-specific evaluation.</text>
+<text x="70" y="644" font-family="Inter,Arial,sans-serif" font-size="13" fill="#74818a">Independent technical and product reporting · Source links in accompanying post</text>
+</svg>
