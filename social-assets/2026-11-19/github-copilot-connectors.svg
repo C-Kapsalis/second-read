@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-<title id="title">Eight new Copilot connectors</title><desc id="desc">GitHub added eight verified MCP services in public preview on 18 November 2026. Data: Supabase Mixpanel; Content: Box Webflow Wix; Delivery: Buildkite ClickUp; Scheduling: Calendly Preview policy, MCP allowlists and service-side permissions may still gate access.</desc>
+<title id="title">Eight new Copilot connectors</title><desc id="desc">GitHub added eight MCP services in public preview on 18 November 2026. Data: Supabase Mixpanel; Content: Box Webflow Wix; Delivery: Buildkite ClickUp; Scheduling: Calendly Preview policy, MCP allowlists and service-side permissions may still gate access.</desc>
 <rect width="1200" height="675" fill="#f5f3ed"/>
 <rect x="0" y="0" width="14" height="675" fill="#245a57"/>
 <text x="70" y="62" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2.5" fill="#9a6b2f">FIELD NOTE  /  19 NOV 2026</text>
