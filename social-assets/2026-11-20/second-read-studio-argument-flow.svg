@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Local clarity and global coherence</title>
+<desc id="desc">Three connected passages show how an edit to the middle passage can improve that paragraph while damaging the article's argument. The reader should check the surrounding passages.</desc>
+<rect width="1200" height="675" fill="#F4F2EC"/>
+<text x="64" y="78" fill="#14283F" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">SECOND READ STUDIO</text>
+<text x="64" y="145" fill="#14283F" font-family="Arial, sans-serif" font-size="48" font-weight="700">A better paragraph can make a worse article.</text>
+<text x="64" y="188" fill="#526273" font-family="Arial, sans-serif" font-size="24">An edit has to work in the argument around it.</text>
+<rect x="64" y="250" width="300" height="220" rx="18" fill="#FFFFFF" stroke="#CBD3D8" stroke-width="2"/>
+<text x="92" y="292" fill="#6B7886" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">PASSAGE 01</text>
+<text x="92" y="350" fill="#14283F" font-family="Arial, sans-serif" font-size="28" font-weight="700">The claim</text>
+<text x="92" y="392" fill="#526273" font-family="Arial, sans-serif" font-size="21">What has the reader</text>
+<text x="92" y="421" fill="#526273" font-family="Arial, sans-serif" font-size="21">been asked to accept?</text>
+<path d="M382 360 H418" stroke="#81909D" stroke-width="4" stroke-linecap="round"/>
+<path d="M407 348 L420 360 L407 372" fill="none" stroke="#81909D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="436" y="230" width="328" height="260" rx="18" fill="#DCECE9" stroke="#2C7A7B" stroke-width="3"/>
+<text x="466" y="275" fill="#2C7A7B" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">PASSAGE 02 · EDIT</text>
+<text x="466" y="337" fill="#14283F" font-family="Arial, sans-serif" font-size="28" font-weight="700">The transition</text>
+<text x="466" y="380" fill="#526273" font-family="Arial, sans-serif" font-size="21">Does the revision still</text>
+<text x="466" y="409" fill="#526273" font-family="Arial, sans-serif" font-size="21">carry the argument forward?</text>
+<rect x="466" y="438" width="250" height="34" rx="8" fill="#2C7A7B"/>
+<text x="591" y="461" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">CHECK IN CONTEXT</text>
+<path d="M782 360 H818" stroke="#81909D" stroke-width="4" stroke-linecap="round"/>
+<path d="M807 348 L820 360 L807 372" fill="none" stroke="#81909D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="836" y="250" width="300" height="220" rx="18" fill="#FFFFFF" stroke="#CBD3D8" stroke-width="2"/>
+<text x="864" y="292" fill="#6B7886" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">PASSAGE 03</text>
+<text x="864" y="350" fill="#14283F" font-family="Arial, sans-serif" font-size="28" font-weight="700">The consequence</text>
+<text x="864" y="392" fill="#526273" font-family="Arial, sans-serif" font-size="21">Does the next section</text>
+<text x="864" y="421" fill="#526273" font-family="Arial, sans-serif" font-size="21">still follow?</text>
+<line x1="64" y1="535" x2="1136" y2="535" stroke="#CBD3D8" stroke-width="2"/>
+<text x="64" y="592" fill="#14283F" font-family="Arial, sans-serif" font-size="31" font-weight="700">LOCAL CLARITY ≠ GLOBAL COHERENCE</text>
+<text x="64" y="632" fill="#526273" font-family="Arial, sans-serif" font-size="19">Read the changed passage with the paragraph before it and the paragraph after it.</text>
+</svg>
