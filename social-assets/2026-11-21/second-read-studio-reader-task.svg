@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Start with the reader's task</title>
+<desc id="desc">Editorial diagram showing three reader contexts, the job each reader needs to complete, and the question that should guide an edit.</desc>
+<rect width="1200" height="675" fill="#F6F5F1"/>
+<rect x="54" y="48" width="8" height="76" rx="4" fill="#3F7D78"/>
+<text x="86" y="82" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#64706F">SECOND READ STUDIO</text>
+<text x="86" y="142" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1D2B2A">Start with the reader's task</text>
+<text x="86" y="184" font-family="Arial, sans-serif" font-size="22" fill="#596563">The same paragraph can serve very different jobs.</text>
+<g>
+  <rect x="76" y="244" width="324" height="224" rx="18" fill="#FFFFFF" stroke="#D9DFDA" stroke-width="2"/>
+  <text x="108" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3F7D78" letter-spacing="1.5">READER 01</text>
+  <text x="108" y="338" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1D2B2A">First-time user</text>
+  <text x="108" y="383" font-family="Arial, sans-serif" font-size="20" fill="#596563">Needs to complete a task</text>
+  <text x="108" y="416" font-family="Arial, sans-serif" font-size="20" fill="#596563">without hidden context.</text>
+  <rect x="438" y="244" width="324" height="224" rx="18" fill="#FFFFFF" stroke="#D9DFDA" stroke-width="2"/>
+  <text x="470" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3F7D78" letter-spacing="1.5">READER 02</text>
+  <text x="470" y="338" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1D2B2A">Product evaluator</text>
+  <text x="470" y="383" font-family="Arial, sans-serif" font-size="20" fill="#596563">Needs to judge fit, scope</text>
+  <text x="470" y="416" font-family="Arial, sans-serif" font-size="20" fill="#596563">and limitations.</text>
+  <rect x="800" y="244" width="324" height="224" rx="18" fill="#FFFFFF" stroke="#D9DFDA" stroke-width="2"/>
+  <text x="832" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3F7D78" letter-spacing="1.5">READER 03</text>
+  <text x="832" y="338" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1D2B2A">Teammate</text>
+  <text x="832" y="383" font-family="Arial, sans-serif" font-size="20" fill="#596563">Needs a shared definition</text>
+  <text x="832" y="416" font-family="Arial, sans-serif" font-size="20" fill="#596563">to make a decision.</text>
+</g>
+<path d="M238 488 V526 H962 V488" fill="none" stroke="#AAB7B0" stroke-width="2"/>
+<rect x="76" y="544" width="1048" height="76" rx="14" fill="#E8F0EB"/>
+<text x="104" y="591" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1D2B2A">Editorial question:</text>
+<text x="340" y="591" font-family="Arial, sans-serif" font-size="25" fill="#1D2B2A">What must this reader understand or do next?</text>
+<text x="76" y="651" font-family="Arial, sans-serif" font-size="15" fill="#7A8581">A product-design principle, not a claim about a live AI review service.</text>
+</svg>
