@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">A review must not lose the draft</title>
+<desc id="desc">Diagram of a source-integrity check: the complete source text must equal the ordered review blocks joined by two newlines; mismatches are rejected.</desc>
+<rect width="1200" height="675" fill="#F6F5F1"/>
+<rect x="54" y="48" width="8" height="76" rx="4" fill="#3F7D78"/>
+<text x="86" y="82" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#64706F">SECOND READ · SOURCE VALIDATION</text>
+<text x="86" y="142" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1D2B2A">A review must not lose the draft</text>
+<text x="86" y="184" font-family="Arial, sans-serif" font-size="22" fill="#596563">Before suggestions appear, the source binding has to be complete.</text>
+<g>
+  <rect x="76" y="242" width="310" height="216" rx="18" fill="#FFFFFF" stroke="#D9DFDA" stroke-width="2"/>
+  <text x="106" y="284" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3F7D78">INPUT</text>
+  <rect x="106" y="310" width="250" height="38" rx="8" fill="#E9EEF0"/>
+  <rect x="106" y="358" width="250" height="38" rx="8" fill="#E9EEF0"/>
+  <rect x="106" y="406" width="250" height="28" rx="8" fill="#E9EEF0"/>
+  <text x="122" y="336" font-family="Arial, sans-serif" font-size="17" fill="#263634">Block 1</text>
+  <text x="122" y="384" font-family="Arial, sans-serif" font-size="17" fill="#263634">Block 2</text>
+  <text x="122" y="426" font-family="Arial, sans-serif" font-size="17" fill="#263634">Block 3</text>
+  <path d="M402 350 H474" stroke="#8A9992" stroke-width="3" fill="none"/>
+  <path d="M462 339 L474 350 L462 361" stroke="#8A9992" stroke-width="3" fill="none"/>
+  <rect x="490" y="242" width="390" height="216" rx="18" fill="#FFFFFF" stroke="#D9DFDA" stroke-width="2"/>
+  <text x="522" y="284" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3F7D78">VALIDATOR</text>
+  <text x="522" y="334" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1D2B2A">source.text</text>
+  <text x="522" y="369" font-family="Arial, sans-serif" font-size="18" fill="#596563">must equal</text>
+  <text x="522" y="406" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#1D2B2A">Block 1 + \n\n + Block 2 + \n\n + Block 3</text>
+  <text x="522" y="438" font-family="Arial, sans-serif" font-size="15" fill="#7A8581">No silent omissions or reordering.</text>
+  <path d="M896 350 H968" stroke="#8A9992" stroke-width="3" fill="none"/>
+  <path d="M956 339 L968 350 L956 361" stroke="#8A9992" stroke-width="3" fill="none"/>
+  <rect x="984" y="242" width="140" height="98" rx="14" fill="#E8F0EB" stroke="#9CBBA9" stroke-width="2"/>
+  <text x="1054" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#285B43">MATCH</text>
+  <text x="1054" y="311" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#285B43">Review can</text>
+  <text x="1054" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#285B43">continue</text>
+  <rect x="984" y="360" width="140" height="98" rx="14" fill="#FCEDE8" stroke="#E3A995" stroke-width="2"/>
+  <text x="1054" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#8C3E2D">MISMATCH</text>
+  <text x="1054" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#8C3E2D">Reject the</text>
+  <text x="1054" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#8C3E2D">payload</text>
+</g>
+<rect x="76" y="510" width="1048" height="96" rx="16" fill="#E8F0EB"/>
+<text x="108" y="552" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1D2B2A">The guardrail is structural:</text>
+<text x="108" y="585" font-family="Arial, sans-serif" font-size="21" fill="#42514D">every reviewed word must still belong to the original draft.</text>
+<text x="76" y="651" font-family="Arial, sans-serif" font-size="15" fill="#7A8581">Implementation detail from Second Read's review validator.</text>
+</svg>
