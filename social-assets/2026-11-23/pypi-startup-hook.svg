@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">The package did not need to be imported</title>
+<desc id="d">A flow diagram explains how malicious Python package versions placed a .pth startup hook in site-packages, which Python executes when an interpreter starts.</desc>
+<rect width="1200" height="675" fill="#101820"/>
+<text x="72" y="82" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700">The package did not need to be imported</text>
+<text x="72" y="126" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="21">The risk was the interpreter startup path, not an application import.</text>
+<rect x="72" y="205" width="250" height="200" rx="18" fill="#1D2A35" stroke="#4C6070" stroke-width="2"/>
+<text x="102" y="252" fill="#9DB3C3" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">INSTALL</text>
+<text x="102" y="310" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">Affected wheel</text>
+<text x="102" y="353" fill="#C5D0D8" font-family="Inter,Arial,sans-serif" font-size="19">1.26.1 / 1.26.2</text>
+<path d="M340 305 H405" stroke="#9DB3C3" stroke-width="4"/>
+<path d="M391 291 L407 305 L391 319" stroke="#9DB3C3" stroke-width="4" fill="none"/>
+<rect x="425" y="205" width="250" height="200" rx="18" fill="#3A311E" stroke="#E8C97D" stroke-width="2"/>
+<text x="455" y="252" fill="#E8C97D" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">SITE-PACKAGES</text>
+<text x="455" y="310" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">.pth file</text>
+<text x="455" y="353" fill="#E8D8B2" font-family="Inter,Arial,sans-serif" font-size="18">Startup import hook</text>
+<path d="M693 305 H758" stroke="#9DB3C3" stroke-width="4"/>
+<path d="M744 291 L760 305 L744 319" stroke="#9DB3C3" stroke-width="4" fill="none"/>
+<rect x="778" y="205" width="350" height="200" rx="18" fill="#3B2428" stroke="#D77D82" stroke-width="2"/>
+<text x="808" y="252" fill="#F09A9F" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">INTERPRETER STARTUP</text>
+<text x="808" y="310" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">Code executes</text>
+<text x="808" y="353" fill="#F3C2C5" font-family="Inter,Arial,sans-serif" font-size="18">Before app import</text>
+<rect x="72" y="460" width="1056" height="90" rx="16" fill="#1D2A35"/>
+<text x="108" y="515" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">Practical implication</text>
+<text x="390" y="515" fill="#C5D0D8" font-family="Inter,Arial,sans-serif" font-size="20">Check installed environments, cached wheels and CI artifacts.</text>
+<text x="72" y="595" fill="#F09A9F" font-family="Inter,Arial,sans-serif" font-size="17">Advisory: 1.26.1 and 1.26.2 malicious; 1.26.0 last clean; no patched version listed.</text>
+<text x="72" y="635" fill="#718596" font-family="Inter,Arial,sans-serif" font-size="14">GitHub Advisory Database • Wiz Research • 17–18 November 2026</text>
+</svg>
