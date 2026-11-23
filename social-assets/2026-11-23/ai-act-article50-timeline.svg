@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Article 50 has a narrow transition, not a general grace period</title>
+<desc id="d">A timeline shows Article 50 applying on 2 August 2026 and a limited 2 December transition for marking and detection under Article 50 paragraph 2 for generative systems already on the market.</desc>
+<rect width="1200" height="675" fill="#101820"/>
+<text x="72" y="82" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700">Article 50: two dates, different scopes</text>
+<text x="72" y="126" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="21">The 2 December transition is limited to one specific obligation.</text>
+<path d="M160 330 H1040" stroke="#607383" stroke-width="8" stroke-linecap="round"/>
+<circle cx="280" cy="330" r="20" fill="#63C8B4"/>
+<circle cx="900" cy="330" r="20" fill="#E8C97D"/>
+<rect x="90" y="190" width="380" height="110" rx="16" fill="#17362F" stroke="#63C8B4" stroke-width="2"/>
+<text x="122" y="235" fill="#83DCCB" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">2 AUGUST 2026</text>
+<text x="122" y="270" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Article 50 applies</text>
+<path d="M280 300 V310" stroke="#63C8B4" stroke-width="3"/>
+<rect x="690" y="190" width="420" height="110" rx="16" fill="#3A311E" stroke="#E8C97D" stroke-width="2"/>
+<text x="722" y="235" fill="#E8C97D" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">2 DECEMBER 2026</text>
+<text x="722" y="270" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Limited transition ends</text>
+<path d="M900 300 V310" stroke="#E8C97D" stroke-width="3"/>
+<rect x="72" y="390" width="500" height="155" rx="18" fill="#1D2A35" stroke="#4C6070" stroke-width="2"/>
+<text x="105" y="435" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">From 2 August</text>
+<text x="105" y="475" fill="#C5D0D8" font-family="Inter,Arial,sans-serif" font-size="18">In-scope providers and deployers</text>
+<text x="105" y="508" fill="#C5D0D8" font-family="Inter,Arial,sans-serif" font-size="18">must meet Article 50 duties.</text>
+<rect x="628" y="390" width="500" height="155" rx="18" fill="#2B2C1D" stroke="#D6B66B" stroke-width="2"/>
+<text x="661" y="435" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">Only Article 50(2)</text>
+<text x="661" y="475" fill="#E8D8B2" font-family="Inter,Arial,sans-serif" font-size="18">Marking and detection for generative</text>
+<text x="661" y="508" fill="#E8D8B2" font-family="Inter,Arial,sans-serif" font-size="18">systems already on the market.</text>
+<text x="72" y="590" fill="#F09A9F" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Not a blanket grace period. Pre-2 August content is not labelled retroactively.</text>
+<text x="72" y="635" fill="#718596" font-family="Inter,Arial,sans-serif" font-size="14">European Commission • Article 50 transparency FAQ • checked 23 November 2026</text>
+</svg>
