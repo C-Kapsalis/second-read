@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">A task solved once is not a reliable agent</title>
+<desc id="d">A visual compares pass at k, success on at least one run, with pass hat k, success on every run.</desc>
+<rect width="1200" height="675" fill="#101820"/>
+<text x="72" y="82" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700">A task solved once is not a reliable agent</text>
+<text x="72" y="126" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="21">ADK 2.15.0 separates occasional success from repeatable success.</text>
+<rect x="72" y="190" width="500" height="310" rx="20" fill="#1D2A35" stroke="#63C8B4" stroke-width="2"/>
+<text x="112" y="250" fill="#83DCCB" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">pass@k</text>
+<text x="112" y="294" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">Solved at least once</text>
+<text x="112" y="335" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="18">Across k attempts</text>
+<g fill="#63C8B4">
+<rect x="112" y="388" width="70" height="56" rx="9"/>
+<rect x="200" y="388" width="70" height="56" rx="9" opacity=".28"/>
+<rect x="288" y="388" width="70" height="56" rx="9" opacity=".28"/>
+<rect x="376" y="388" width="70" height="56" rx="9" opacity=".28"/>
+<rect x="464" y="388" width="70" height="56" rx="9" opacity=".28"/>
+</g>
+<text x="147" y="424" fill="#101820" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle">✓</text>
+<text x="235" y="424" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="middle">·</text>
+<text x="323" y="424" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="middle">·</text>
+<text x="411" y="424" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="middle">·</text>
+<text x="499" y="424" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="24" text-anchor="middle">·</text>
+<text x="112" y="472" fill="#83DCCB" font-family="Inter,Arial,sans-serif" font-size="17">One success is enough for this measure</text>
+<rect x="628" y="190" width="500" height="310" rx="20" fill="#2A2538" stroke="#B49AD9" stroke-width="2"/>
+<text x="668" y="250" fill="#C8B4E7" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">pass^k</text>
+<text x="668" y="294" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">Succeeded every run</text>
+<text x="668" y="335" fill="#A9B8C5" font-family="Inter,Arial,sans-serif" font-size="18">Across k attempts</text>
+<g fill="#B49AD9">
+<rect x="668" y="388" width="70" height="56" rx="9"/>
+<rect x="756" y="388" width="70" height="56" rx="9"/>
+<rect x="844" y="388" width="70" height="56" rx="9"/>
+<rect x="932" y="388" width="70" height="56" rx="9"/>
+<rect x="1020" y="388" width="70" height="56" rx="9"/>
+</g>
+<g fill="#101820" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+<text x="703" y="424">✓</text><text x="791" y="424">✓</text><text x="879" y="424">✓</text><text x="967" y="424">✓</text><text x="1055" y="424">✓</text>
+</g>
+<text x="668" y="472" fill="#C8B4E7" font-family="Inter,Arial,sans-serif" font-size="17">Consistency is the harder requirement</text>
+<text x="72" y="560" fill="#F3F6F8" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">Report both. A lucky run and a dependable workflow are different things.</text>
+<text x="72" y="635" fill="#718596" font-family="Inter,Arial,sans-serif" font-size="14">Google ADK Python v2.15.0 release notes • 19 November 2026</text>
+</svg>
