@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Meta's crawler terms are on hold</title><desc id="desc">The company has described a consultation process before rollout.</desc>
+<rect width="1200" height="675" fill="#0B1422"/>
+<rect x="54" y="48" width="8" height="82" rx="4" fill="#7BD3C6"/>
+<text x="86" y="70" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTES / 24 NOV 2026</text>
+<text x="86" y="119" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="700">Meta's crawler terms are on hold</text>
+<text x="86" y="159" fill="#B9C5D4" font-family="Inter,Arial,sans-serif" font-size="21">The company has described a consultation process before rollout.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#71839A"/></marker></defs>
+      <rect x="60" y="265" width="320" height="220" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="60" y="265" width="8" height="220" rx="4" fill="#7BD3C6"/>
+<text x="86" y="319" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">01 · LISTEN</text><text x="86" y="360" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Publisher and industry</text><text x="86" y="394" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">feedback over coming months.</text>
+      <line x1="385" y1="375" x2="430" y2="375" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="440" y="265" width="320" height="220" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="440" y="265" width="8" height="220" rx="4" fill="#E8C36A"/>
+<text x="466" y="319" fill="#E8C36A" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">02 · REVISE</text><text x="466" y="360" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Refine the proposed</text><text x="466" y="394" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">commercial terms.</text>
+      <line x1="765" y1="375" x2="810" y2="375" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="820" y="265" width="320" height="220" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="820" y="265" width="8" height="220" rx="4" fill="#B9A6F0"/>
+<text x="846" y="319" fill="#B9A6F0" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">03 · ENGAGE</text><text x="846" y="360" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Further talks with publishers</text><text x="846" y="394" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">and regulators in early 2027.</text>
+      <text x="600" y="548" text-anchor="middle" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">The proposed changes have not rolled out.</text>
+<line x1="54" y1="612" x2="1146" y2="612" stroke="#314157" stroke-width="2"/>
+<text x="60" y="646" fill="#91A0B3" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="1.1">SOURCE: META NEWSROOM · 18 NOV 2026</text>
+</svg>
