@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Issue status can follow the work</title><desc id="desc">GitHub adds finer-grained states and automated transitions in public preview.</desc>
+<rect width="1200" height="675" fill="#0B1422"/>
+<rect x="54" y="48" width="8" height="82" rx="4" fill="#7BD3C6"/>
+<text x="86" y="70" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTES / 24 NOV 2026</text>
+<text x="86" y="119" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="700">Issue status can follow the work</text>
+<text x="86" y="159" fill="#B9C5D4" font-family="Inter,Arial,sans-serif" font-size="21">GitHub adds finer-grained states and automated transitions in public preview.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#71839A"/></marker></defs>
+      <rect x="60" y="255" width="300" height="210" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="60" y="255" width="8" height="210" rx="4" fill="#7BD3C6"/>
+<text x="86" y="309" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">ASSIGN AGENT</text><text x="86" y="350" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Issue moves to</text><text x="86" y="384" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">IN PROGRESS</text>
+      <line x1="365" y1="360" x2="415" y2="360" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="425" y="255" width="300" height="210" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="425" y="255" width="8" height="210" rx="4" fill="#E8C36A"/>
+<text x="451" y="309" fill="#E8C36A" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">DRAFT PR READY</text><text x="451" y="350" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Issue moves to</text><text x="451" y="384" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">IN REVIEW</text>
+      <line x1="730" y1="360" x2="780" y2="360" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="790" y="255" width="350" height="210" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="790" y="255" width="8" height="210" rx="4" fill="#B9A6F0"/>
+<text x="816" y="309" fill="#B9A6F0" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">SHARED STATE</text><text x="816" y="350" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">API · GraphQL · REST</text><text x="816" y="384" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">MCP · Copilot automation</text>
+      <text x="600" y="548" text-anchor="middle" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">The status becomes workflow context for people and agents.</text>
+<line x1="54" y1="612" x2="1146" y2="612" stroke="#314157" stroke-width="2"/>
+<text x="60" y="646" fill="#91A0B3" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="1.1">SOURCE: GITHUB CHANGELOG · 23 NOV 2026</text>
+</svg>
