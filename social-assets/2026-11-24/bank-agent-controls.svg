@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Agent controls move beyond prompts</title><desc id="desc">Reuters reports several US banks are tightening internal-agent safeguards.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F9FC"/><stop offset="1" stop-color="#EEF2F7"/></linearGradient>
+  <style>
+    .h{font:700 42px Inter,Arial,sans-serif;fill:#152238}
+    .sub{font:400 23px Inter,Arial,sans-serif;fill:#536176}
+    .k{font:700 17px Inter,Arial,sans-serif;letter-spacing:2px;fill:#60718A}
+    .label{font:700 24px Inter,Arial,sans-serif;fill:#17263C}
+    .body{font:400 20px Inter,Arial,sans-serif;fill:#4D5C70}
+    .small{font:400 16px Inter,Arial,sans-serif;fill:#65758B}
+    .mono{font:600 18px ui-monospace,Menlo,Consolas,monospace;fill:#24364E}
+  </style>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<rect x="48" y="42" width="8" height="86" rx="4" fill="#2C7A78"/>
+<text x="82" y="83" class="h">Agent controls move beyond prompts</text>
+<text x="82" y="122" class="sub">Reuters reports several US banks are tightening internal-agent safeguards.</text>
+
+ <rect x="64" y="205" width="240" height="280" rx="18" fill="#FFFFFF" stroke="#C9D5E3" stroke-width="2"/>
+ <circle cx="184" cy="270" r="34" fill="#EEF4FF" stroke="#9DB8F2" stroke-width="2"/>
+ <text x="184" y="280" text-anchor="middle" class="label">01</text><text x="94" y="342" class="label">Scoped identity</text><text x="94" y="382" class="body">Credentials and</text><text x="94" y="410" class="body">system permissions</text>
+ <rect x="334" y="205" width="240" height="280" rx="18" fill="#FFFFFF" stroke="#C9D5E3" stroke-width="2"/>
+ <circle cx="454" cy="270" r="34" fill="#EEF4FF" stroke="#9DB8F2" stroke-width="2"/>
+ <text x="454" y="280" text-anchor="middle" class="label">02</text><text x="364" y="342" class="label">Isolated tests</text><text x="364" y="382" class="body">Separate test and</text><text x="364" y="410" class="body">production systems</text>
+ <rect x="604" y="205" width="240" height="280" rx="18" fill="#FFFFFF" stroke="#C9D5E3" stroke-width="2"/>
+ <circle cx="724" cy="270" r="34" fill="#EEF4FF" stroke="#9DB8F2" stroke-width="2"/>
+ <text x="724" y="280" text-anchor="middle" class="label">03</text><text x="634" y="342" class="label">Audit trail</text><text x="634" y="382" class="body">Systems, actions</text><text x="634" y="410" class="body">and approvals</text>
+ <rect x="874" y="205" width="262" height="280" rx="18" fill="#E7F6F1" stroke="#8BCBBA" stroke-width="2"/>
+ <circle cx="1005" cy="270" r="34" fill="#D4EFE6" stroke="#8BCBBA" stroke-width="2"/>
+ <text x="1005" y="280" text-anchor="middle" class="label">04</text><text x="904" y="342" class="label">Kill + recover</text><text x="904" y="382" class="body">Disconnect agent;</text><text x="904" y="410" class="body">keep operations running</text>
+ <text x="64" y="550" class="small">Reported response by several large and mid-sized US banks · Reuters · 23 Nov 2026</text>
+ 
+<line x1="64" y1="615" x2="1136" y2="615" stroke="#D7DFE9" stroke-width="2"/>
+<text x="66" y="649" class="k">REPORTED INDUSTRY RESPONSE · REUTERS</text>
+<text x="1135" y="649" text-anchor="end" class="small">1200 × 675</text>
+</svg>
