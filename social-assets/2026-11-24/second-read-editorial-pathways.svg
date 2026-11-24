@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Different writing jobs need different checks</title><desc id="desc">The document's purpose determines what a good edit must protect.</desc>
+<rect width="1200" height="675" fill="#0B1422"/>
+<rect x="54" y="48" width="8" height="82" rx="4" fill="#7BD3C6"/>
+<text x="86" y="70" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTES / 24 NOV 2026</text>
+<text x="86" y="119" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="700">Different writing jobs need different checks</text>
+<text x="86" y="159" fill="#B9C5D4" font-family="Inter,Arial,sans-serif" font-size="21">The document's purpose determines what a good edit must protect.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#71839A"/></marker></defs>
+      <rect x="60" y="245" width="330" height="260" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="60" y="245" width="8" height="260" rx="4" fill="#7BD3C6"/>
+<text x="86" y="299" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">HOW-TO</text><text x="86" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Prerequisites</text><text x="86" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Runnable steps</text><text x="86" y="408" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Success criteria</text>
+      <rect x="435" y="245" width="330" height="260" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="435" y="245" width="8" height="260" rx="4" fill="#E8C36A"/>
+<text x="461" y="299" fill="#E8C36A" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">JOURNALISM</text><text x="461" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Attribution</text><text x="461" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Source provenance</text><text x="461" y="408" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Scope and uncertainty</text>
+      <rect x="810" y="245" width="330" height="260" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="810" y="245" width="8" height="260" rx="4" fill="#B9A6F0"/>
+<text x="836" y="299" fill="#B9A6F0" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">AD COPY</text><text x="836" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Audience and offer</text><text x="836" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Claim support</text><text x="836" y="408" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Action clarity</text>
+      <text x="600" y="556" text-anchor="middle" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">One generic polish pass cannot serve all three.</text>
+<line x1="54" y1="612" x2="1146" y2="612" stroke="#314157" stroke-width="2"/>
+<text x="60" y="646" fill="#91A0B3" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="1.1">SECOND READ OPEN-SOURCE SKILL · DOCUMENTED EDITORIAL PATHWAYS</text>
+</svg>
