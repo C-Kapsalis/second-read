@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Editing is more than sentence polish</title><desc id="desc">The reader's task belongs in the editorial brief.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F9FC"/><stop offset="1" stop-color="#EEF2F7"/></linearGradient>
+  <style>
+    .h{font:700 42px Inter,Arial,sans-serif;fill:#152238}
+    .sub{font:400 23px Inter,Arial,sans-serif;fill:#536176}
+    .k{font:700 17px Inter,Arial,sans-serif;letter-spacing:2px;fill:#60718A}
+    .label{font:700 24px Inter,Arial,sans-serif;fill:#17263C}
+    .body{font:400 20px Inter,Arial,sans-serif;fill:#4D5C70}
+    .small{font:400 16px Inter,Arial,sans-serif;fill:#65758B}
+    .mono{font:600 18px ui-monospace,Menlo,Consolas,monospace;fill:#24364E}
+  </style>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<rect x="48" y="42" width="8" height="86" rx="4" fill="#2C7A78"/>
+<text x="82" y="83" class="h">Editing is more than sentence polish</text>
+<text x="82" y="122" class="sub">The reader's task belongs in the editorial brief.</text>
+
+ <rect x="64" y="190" width="320" height="300" rx="22" fill="#FFFFFF" stroke="#C9D5E3" stroke-width="2"/>
+ <text x="96" y="236" class="k">01 · READER</text><text x="96" y="286" class="label">What must they</text><text x="96" y="318" class="label">understand or decide?</text><text x="96" y="378" class="body">Audience</text><text x="96" y="410" class="body">Purpose</text><text x="96" y="442" class="body">Next action</text>
+ <path d="M400 340 H455" stroke="#7E91A8" stroke-width="4" fill="none"/><path d="M444 328 L458 340 L444 352" stroke="#7E91A8" stroke-width="4" fill="none"/>
+ <rect x="462" y="190" width="320" height="300" rx="22" fill="#FFFFFF" stroke="#C9D5E3" stroke-width="2"/>
+ <text x="494" y="236" class="k">02 · DRAFT</text><text x="494" y="286" class="label">What does the text</text><text x="494" y="318" class="label">actually establish?</text><text x="494" y="378" class="body">Claims</text><text x="494" y="410" class="body">Evidence</text><text x="494" y="442" class="body">Structure</text>
+ <path d="M798 340 H853" stroke="#7E91A8" stroke-width="4" fill="none"/><path d="M842 328 L856 340 L842 352" stroke="#7E91A8" stroke-width="4" fill="none"/>
+ <rect x="860" y="190" width="276" height="300" rx="22" fill="#E7F6F1" stroke="#8BCBBA" stroke-width="2"/>
+ <text x="892" y="236" class="k">03 · REVIEW</text><text x="892" y="286" class="label">Does the draft</text><text x="892" y="318" class="label">serve the task?</text><text x="892" y="378" class="body">Comprehension</text><text x="892" y="410" class="body">Decision quality</text><text x="892" y="442" class="body">No invented claims</text>
+ <text x="64" y="548" class="small">Design principle for Studio — not a claim that a particular workflow feature is already shipped.</text>
+ 
+<line x1="64" y1="615" x2="1136" y2="615" stroke="#D7DFE9" stroke-width="2"/>
+<text x="66" y="649" class="k">SECOND READ STUDIO · PRODUCT DIRECTION</text>
+<text x="1135" y="649" text-anchor="end" class="small">1200 × 675</text>
+</svg>
