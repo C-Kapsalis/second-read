@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">An edit is not a score</title><desc id="desc">A useful suggestion names the reader problem.</desc>
+<rect width="1200" height="675" fill="#0B1422"/>
+<rect x="54" y="48" width="8" height="82" rx="4" fill="#7BD3C6"/>
+<text x="86" y="70" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTES / 24 NOV 2026</text>
+<text x="86" y="119" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="700">An edit is not a score</text>
+<text x="86" y="159" fill="#B9C5D4" font-family="Inter,Arial,sans-serif" font-size="21">A useful suggestion names the reader problem.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#71839A"/></marker></defs>
+      <rect x="60" y="245" width="320" height="240" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="60" y="245" width="8" height="240" rx="4" fill="#7BD3C6"/>
+<text x="86" y="299" fill="#7BD3C6" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">01 · PASSAGE</text><text x="86" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Read the actual words</text><text x="86" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">in their surrounding context.</text>
+      <line x1="390" y1="365" x2="440" y2="365" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="450" y="245" width="320" height="240" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="450" y="245" width="8" height="240" rx="4" fill="#E8C36A"/>
+<text x="476" y="299" fill="#E8C36A" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">02 · READER COST</text><text x="476" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">What could be</text><text x="476" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">misunderstood or missed?</text>
+      <line x1="780" y1="365" x2="830" y2="365" stroke="#71839A" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="840" y="245" width="300" height="240" rx="18" fill="#162338" stroke="#334963" stroke-width="2"/>
+<rect x="840" y="245" width="8" height="240" rx="4" fill="#8BCB9F"/>
+<text x="866" y="299" fill="#8BCB9F" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">03 · DECISION</text><text x="866" y="340" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">Make the smallest edit</text><text x="866" y="374" fill="#D6DFE9" font-family="Inter,Arial,sans-serif" font-size="21">— or leave it alone.</text>
+      <text x="600" y="548" text-anchor="middle" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">No score can replace the reason for a change.</text>
+<line x1="54" y1="612" x2="1146" y2="612" stroke="#314157" stroke-width="2"/>
+<text x="60" y="646" fill="#91A0B3" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="1.1">SECOND READ STUDIO · PRODUCT DESIGN PRINCIPLE</text>
+</svg>
