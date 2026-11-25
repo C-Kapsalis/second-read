@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-<title id="title">An edit is not a global rule</title>
-<desc id="desc">Second Read Studio · product design direction Writer choice Accept / reject / rewrite|is a signal, not a|universal instruction.. Scope it Propose a rule for a|field or writing type.|Keep the context visible.. Ask first The author reviews and|approves the rule before|it shapes later reviews. A preference is a proposal until the writer approves it.</desc>
-<rect width="1200" height="675" fill="#0b1220"/>
-<rect x="60" y="48" width="7" height="145" rx="3" fill="#72d7c8"/>
+<title id="title">An edit is not a global rule</title><desc id="desc">Second Read Studio · product design direction Writer choice Accept / reject / rewrite|is a signal, not a|universal instruction.. Propose a rule Make the pattern visible|in plain language and|keep its project context.. Ask first The author reviews and|approves the rule before|it shapes later reviews. A preference is a proposal until the writer approves it.</desc>
+<rect width="1200" height="675" fill="#0b1220"/><rect x="60" y="48" width="7" height="145" rx="3" fill="#72d7c8"/>
 <text x="88" y="73" fill="#8ea4ba" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTE · 25 NOV 2026</text>
-<text x="88" y="132" fill="#f5f7fb" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700"><tspan x="88" dy="0">An edit is not a global rule</tspan></text>
-<text x="88" y="190" fill="#b8c6d8" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="400"><tspan x="88" dy="0">Second Read Studio · product design direction</tspan></text>
-<g>
-      <rect x="60" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
-      <circle cx="95" cy="292" r="18" fill="#214d59"/>
-      <text x="95" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">01</text>
-      <text x="88" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="88" dy="0">Writer choice</tspan></text>
-      <text x="88" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="88" dy="0">Accept / reject / rewrite</tspan><tspan x="88" dy="28">is a signal, not a</tspan><tspan x="88" dy="28">universal instruction.</tspan></text>
-    </g><g>
-      <rect x="425" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
-      <circle cx="460" cy="292" r="18" fill="#214d59"/>
-      <text x="460" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">02</text>
-      <text x="453" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="453" dy="0">Scope it</tspan></text>
-      <text x="453" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="453" dy="0">Propose a rule for a</tspan><tspan x="453" dy="28">field or writing type.</tspan><tspan x="453" dy="28">Keep the context visible.</tspan></text>
-    </g><g>
-      <rect x="790" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
-      <circle cx="825" cy="292" r="18" fill="#214d59"/>
-      <text x="825" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">03</text>
-      <text x="818" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="818" dy="0">Ask first</tspan></text>
-      <text x="818" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="818" dy="0">The author reviews and</tspan><tspan x="818" dy="28">approves the rule before</tspan><tspan x="818" dy="28">it shapes later reviews.</tspan></text>
-    </g>
+<text x="88" y="132" fill="#f5f7fb" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700"><tspan x="88" dy="0">An edit is not a global rule</tspan></text><text x="88" y="190" fill="#b8c6d8" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="400"><tspan x="88" dy="0">Second Read Studio · product design direction</tspan></text>
+<g><rect x="60" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/><circle cx="95" cy="292" r="18" fill="#214d59"/><text x="95" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">01</text><text x="88" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="88" dy="0">Writer choice</tspan></text><text x="88" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="88" dy="0">Accept / reject / rewrite</tspan><tspan x="88" dy="28">is a signal, not a</tspan><tspan x="88" dy="28">universal instruction.</tspan></text></g><g><rect x="425" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/><circle cx="460" cy="292" r="18" fill="#214d59"/><text x="460" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">02</text><text x="453" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="453" dy="0">Propose a rule</tspan></text><text x="453" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="453" dy="0">Make the pattern visible</tspan><tspan x="453" dy="28">in plain language and</tspan><tspan x="453" dy="28">keep its project context.</tspan></text></g><g><rect x="790" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/><circle cx="825" cy="292" r="18" fill="#214d59"/><text x="825" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">03</text><text x="818" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="818" dy="0">Ask first</tspan></text><text x="818" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="818" dy="0">The author reviews and</tspan><tspan x="818" dy="28">approves the rule before</tspan><tspan x="818" dy="28">it shapes later reviews.</tspan></text></g>
 <rect x="60" y="535" width="1080" height="82" rx="16" fill="#163a42" stroke="#2b6670" stroke-width="2"/>
 <text x="88" y="585" fill="#d8f5f0" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700"><tspan x="88" dy="0">A preference is a proposal until the writer approves it.</tspan></text>
 <text x="60" y="650" fill="#71859a" font-family="Inter,Arial,sans-serif" font-size="14">Independent editorial explainer · source and scope are stated in the accompanying post</text>
