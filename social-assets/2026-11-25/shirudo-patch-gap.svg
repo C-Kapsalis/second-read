@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Protect the service while the patch is prepared</title>
+<desc id="desc">OpenAI + Cisco · Shirudo runtime shield Find the path Identify the vulnerable|Linux operation and|legitimate traffic.. Test a shield Use eBPF to block the|exploit path while|monitoring side effects.. Operator approves Sign, verify and deploy|the temporary shield|without a restart. Temporary mitigation only · the permanent patch is still required.</desc>
+<rect width="1200" height="675" fill="#0b1220"/>
+<rect x="60" y="48" width="7" height="145" rx="3" fill="#72d7c8"/>
+<text x="88" y="73" fill="#8ea4ba" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">FIELD NOTE · 25 NOV 2026</text>
+<text x="88" y="132" fill="#f5f7fb" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700"><tspan x="88" dy="0">Protect the service while the patch is prepared</tspan></text>
+<text x="88" y="190" fill="#b8c6d8" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="400"><tspan x="88" dy="0">OpenAI + Cisco · Shirudo runtime shield</tspan></text>
+<g>
+      <rect x="60" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
+      <circle cx="95" cy="292" r="18" fill="#214d59"/>
+      <text x="95" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">01</text>
+      <text x="88" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="88" dy="0">Find the path</tspan></text>
+      <text x="88" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="88" dy="0">Identify the vulnerable</tspan><tspan x="88" dy="28">Linux operation and</tspan><tspan x="88" dy="28">legitimate traffic.</tspan></text>
+    </g><g>
+      <rect x="425" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
+      <circle cx="460" cy="292" r="18" fill="#214d59"/>
+      <text x="460" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">02</text>
+      <text x="453" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="453" dy="0">Test a shield</tspan></text>
+      <text x="453" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="453" dy="0">Use eBPF to block the</tspan><tspan x="453" dy="28">exploit path while</tspan><tspan x="453" dy="28">monitoring side effects.</tspan></text>
+    </g><g>
+      <rect x="790" y="252" width="335" height="245" rx="18" fill="#172337" stroke="#344861" stroke-width="2"/>
+      <circle cx="825" cy="292" r="18" fill="#214d59"/>
+      <text x="825" y="299" text-anchor="middle" fill="#a9f0e5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">03</text>
+      <text x="818" y="346" fill="#f3f6fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700"><tspan x="818" dy="0">Operator approves</tspan></text>
+      <text x="818" y="408" fill="#c0ccda" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="400"><tspan x="818" dy="0">Sign, verify and deploy</tspan><tspan x="818" dy="28">the temporary shield</tspan><tspan x="818" dy="28">without a restart.</tspan></text>
+    </g>
+<rect x="60" y="535" width="1080" height="82" rx="16" fill="#163a42" stroke="#2b6670" stroke-width="2"/>
+<text x="88" y="585" fill="#d8f5f0" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700"><tspan x="88" dy="0">Temporary mitigation only · the permanent patch is still required.</tspan></text>
+<text x="60" y="650" fill="#71859a" font-family="Inter,Arial,sans-serif" font-size="14">Independent editorial explainer · source and scope are stated in the accompanying post</text>
+</svg>
