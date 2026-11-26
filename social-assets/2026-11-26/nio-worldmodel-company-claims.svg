@@ -6,7 +6,7 @@
   <text x="64" y="166" font-family="Inter,Arial,sans-serif" font-size="20" fill="#475569">The figures below are company-reported comparisons with the previous generation.</text>
   <rect x="64" y="238" width="341.3333333333333" height="280" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="2"/>
       <text x="88" y="280" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#0F766E">COMPUTE</text>
-      <text x="88" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">36× less</text>
+      <text x="88" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">36× reduction</text>
       <text x="88" y="370" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Attention compute</text><text x="88" y="398" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">onboard processing</text><rect x="429.3333333333333" y="238" width="341.3333333333333" height="280" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="2"/>
       <text x="453.3333333333333" y="280" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#0F766E">CONTROL</text>
       <text x="453.3333333333333" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">54% lower</text>
