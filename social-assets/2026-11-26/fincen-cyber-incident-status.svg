@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#F8FAFC"/>
+  <rect x="64" y="42" width="10" height="22" rx="5" fill="#0F766E"/>
+  <text x="88" y="60" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#0F766E">REUTERS / 25 NOVEMBER 2026</text>
+  <text x="64" y="124" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="750" fill="#0F172A">FinCEN incident: scope still unknown</text>
+  <text x="64" y="166" font-family="Inter,Arial,sans-serif" font-size="20" fill="#475569">The available reporting distinguishes confirmed access from databases not known to be breached.</text>
+  <rect x="64" y="238" width="341.3333333333333" height="280" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="2"/>
+      <text x="88" y="280" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#0F766E">CONFIRMED</text>
+      <text x="88" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">Limited systems accessed</text>
+      <text x="88" y="370" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Some systems taken offline</text><text x="88" y="398" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Treasury + FBI + CISA involved</text><rect x="429.3333333333333" y="238" width="341.3333333333333" height="280" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="2"/>
+      <text x="453.3333333333333" y="280" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#0F766E">REPORTED STATUS</text>
+      <text x="453.3333333333333" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">No evidence so far</text>
+      <text x="453.3333333333333" y="370" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">BSA database</text><text x="453.3333333333333" y="398" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Beneficial-ownership database</text><rect x="794.6666666666666" y="238" width="341.3333333333333" height="280" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="2"/>
+      <text x="818.6666666666666" y="280" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#0F766E">STILL UNKNOWN</text>
+      <text x="818.6666666666666" y="322" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">Scope and source</text>
+      <text x="818.6666666666666" y="370" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Forensic analysis continues</text><text x="818.6666666666666" y="398" font-family="Inter,Arial,sans-serif" font-size="19" fill="#475569">Filing relief provided</text>
+  <line x1="64" y1="565" x2="1136" y2="565" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="64" y="608" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.6" fill="#64748B">FORENSIC WORK ONGOING · NO EVIDENCE SO FAR IS NOT PROOF OF NO ACCESS</text>
+  <text x="1136" y="608" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" fill="#94A3B8">26 NOV 2026</text>
+  </svg>
