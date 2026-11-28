@@ -1,0 +1,18 @@
+---
+title: Evidence-grounded skill evolution
+---
+flowchart LR
+  A["Prior case dialogues"] --> B["Extract success and failure"]
+  B --> C["Attach source evidence and limits"]
+  C --> D["Build conditional workflow"]
+  D --> E["Human source review"]
+  E --> F["Execution validation"]
+  F --> G["Reusable skill library"]
+  classDef data fill:#F3EEFF,stroke:#B9A6F0,color:#1B1F24
+  classDef process fill:#EEF4FF,stroke:#9DB8F2,color:#1B1F24
+  classDef gate fill:#FFF6E0,stroke:#E8C36A,color:#1B1F24
+  classDef success fill:#E7F6EC,stroke:#8BCB9F,color:#1B1F24
+  class A,C data
+  class B,D process
+  class E,F gate
+  class G success
