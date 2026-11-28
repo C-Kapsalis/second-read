@@ -1,0 +1,20 @@
+---
+title: Agent-generated OpenTelemetry instrumentation
+config:
+  layout: elk
+---
+flowchart LR
+  A["Inspect framework"] --> B["Review instrumentation plan"]
+  B --> C["Generate instrumentation"]
+  C --> D["Unit and integration tests"]
+  D --> E["Weaver registry check"]
+  E --> F{"Conforms?"}
+  F -->|Yes| G["Soak and observe"]
+  F -->|No| C
+  G --> H["Human-reviewed pull request"]
+  classDef process fill:#EEF4FF,stroke:#9DB8F2,color:#1B1F24
+  classDef gate fill:#FFF6E0,stroke:#E8C36A,color:#1B1F24
+  classDef success fill:#E7F6EC,stroke:#8BCB9F,color:#1B1F24
+  class A,C,D,G process
+  class B,E,F gate
+  class H success
