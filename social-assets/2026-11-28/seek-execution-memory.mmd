@@ -1,0 +1,22 @@
+---
+title: SEEK robot execution memory
+config:
+  layout: elk
+---
+flowchart LR
+  A["Observe current scene"] --> B["Run conditional procedure"]
+  B --> C["Execute robot action"]
+  C --> D["Measure action effect"]
+  D --> E["Store success or failure"]
+  E --> F{"Known condition?"}
+  F -->|Yes| G["Reuse procedure"]
+  F -->|No| H["Revise procedure from evidence"]
+  H --> B
+  classDef process fill:#EEF4FF,stroke:#9DB8F2,color:#1B1F24
+  classDef data fill:#F3EEFF,stroke:#B9A6F0,color:#1B1F24
+  classDef gate fill:#FFF6E0,stroke:#E8C36A,color:#1B1F24
+  classDef success fill:#E7F6EC,stroke:#8BCB9F,color:#1B1F24
+  class A,B,C,D,H process
+  class E data
+  class F gate
+  class G success
