@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Source evidence is not runtime proof</title>
+<desc id="desc">Second Read product verifier distinguishes source-backed corroboration and contradiction, unknown when evidence or permission is absent, and observed runtime results after explicit opt-in.</desc>
+<rect width="1200" height="675" fill="#FAFAF7"/>
+<rect x="48" y="42" width="7" height="42" rx="3" fill="#4F7D78"/>
+<text x="72" y="69" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1.6" fill="#52616B">SECOND READ SKILL · PRODUCT EVIDENCE</text>
+<text x="48" y="142" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="750" fill="#18222B">Source evidence is not runtime proof</text>
+<text x="48" y="190" font-family="Inter,Arial,sans-serif" font-size="19" fill="#56616B">The verifier reports what the evidence actually supports, and what it does not.</text>
+<g font-family="Inter,Arial,sans-serif">
+ <rect x="48" y="250" width="246" height="168" rx="18" fill="#EEF4FF" stroke="#9DB8F2" stroke-width="2"/>
+ <circle cx="72" cy="277" r="13" fill="#9DB8F2"/><text x="72" y="282" text-anchor="middle" font-size="13" font-weight="700" fill="#1B1F24">1</text>
+ <text x="68" y="323" font-size="23" font-weight="700" fill="#1B1F24">Source probe</text>
+ <text x="68" y="362" font-size="16" fill="#46505C">Files, exact text, JSON</text>
+ <text x="68" y="388" font-size="16" fill="#46505C">and repository counts</text>
+ <path d="M300 334 H330 M321 327 L330 334 L321 341" stroke="#8A94A6" stroke-width="3" fill="none"/>
+ <rect x="340" y="250" width="246" height="168" rx="18" fill="#E7F6EC" stroke="#8BCB9F" stroke-width="2"/>
+ <circle cx="364" cy="277" r="13" fill="#8BCB9F"/><text x="364" y="282" text-anchor="middle" font-size="13" font-weight="700" fill="#1B1F24">2</text>
+ <text x="360" y="323" font-size="22" font-weight="700" fill="#1B1F24">Source result</text>
+ <text x="360" y="365" font-size="18" fill="#26343B">corroborated</text>
+ <text x="360" y="393" font-size="18" fill="#26343B">contradicted</text>
+ <path d="M592 334 H622 M613 327 L622 334 L613 341" stroke="#8A94A6" stroke-width="3" fill="none"/>
+ <rect x="632" y="250" width="246" height="168" rx="18" fill="#FFF6E0" stroke="#E8C36A" stroke-width="2"/>
+ <circle cx="656" cy="277" r="13" fill="#E8C36A"/><text x="656" y="282" text-anchor="middle" font-size="13" font-weight="700" fill="#1B1F24">3</text>
+ <text x="652" y="323" font-size="23" font-weight="700" fill="#1B1F24">Unknown</text>
+ <text x="652" y="362" font-size="16" fill="#46505C">Missing, stale or</text>
+ <text x="652" y="388" font-size="16" fill="#46505C">not-authorised evidence</text>
+ <path d="M884 334 H914 M905 327 L914 334 L905 341" stroke="#8A94A6" stroke-width="3" fill="none"/>
+ <rect x="924" y="250" width="228" height="168" rx="18" fill="#F3EEFF" stroke="#B9A6F0" stroke-width="2"/>
+ <circle cx="948" cy="277" r="13" fill="#B9A6F0"/><text x="948" y="282" text-anchor="middle" font-size="13" font-weight="700" fill="#1B1F24">4</text>
+ <text x="944" y="323" font-size="21" font-weight="700" fill="#1B1F24">Runtime result</text>
+ <text x="944" y="365" font-size="17" fill="#26343B">observed_pass</text>
+ <text x="944" y="393" font-size="17" fill="#26343B">observed_fail</text>
+</g>
+<rect x="48" y="476" width="1104" height="92" rx="14" fill="#F1F3F2" stroke="#D5DBD8"/>
+<text x="72" y="512" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#64736E">PERMISSION BOUNDARY</text>
+<text x="72" y="545" font-family="Inter,Arial,sans-serif" font-size="17" fill="#26343B">Command probes need --allow-exec · live HTTP checks need --allow-network · neither runs by default</text>
+<text x="48" y="625" font-family="Inter,Arial,sans-serif" font-size="13" fill="#77818A">INDEPENDENT TECHNOLOGY NOTES · 28 NOV 2026</text>
+<text x="1152" y="625" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" fill="#77818A">1200 × 675</text>
+</svg>
